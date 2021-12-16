@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    const mypages = [
+        { name: "Basic", src:"question/basics.html"},
+    ]
+
+    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none\" href=\"#\">"+page.name+"</nav></a></li>"
+    
+    $(document).ready(function(){
+        $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
+        $("nav").click(function(){ $("#page").html('<embed type="text/html" width="650" height="540" src="'+$(this).attr("src")+'">') })
+    });
+    </script>
+    <style>
+        #page{height: 540px; width: 530px; }
+        #navigation{ height: 540px; width: 250px;}
+    </style>
+</head>
+<body style='overflow:hidden'>
+    <div style="display: flex; width: 735px;" id="main">
+        <div id="navigation"></div>
+        <div id="page"></div>
+    </div>
+</body>
+</html>

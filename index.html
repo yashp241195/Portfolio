@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Pratap</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    const mypages = [
+        { name: "Outline", src:"pages/resume.html"},
+        { name: "Projects", src:"pages/resume.html"},
+        { name: "Civilization Type 1", src:"pages/resume.html"},
+        { name: "Questions", src:"pages/questions.html"},
+        { name: "About", src:"pages/about.html"},
+    ]
+
+    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none\" href=\"#\">"+page.name+"</nav></a></li>"
+    
+    $(document).ready(function(){
+        $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
+        $("nav").click(function(){ $("#page").html('<embed type="text/html" width="750" height="550" src="'+$(this).attr("src")+'">') })
+    });
+    </script>
+    <style>
+        #page{ height: 550px; width: 750px; border: 1px solid lightgray; }        
+    </style>
+</head>
+<body >
+    <div style="display: flex; justify-content: center;" id="main">
+        <div id="page"  style='overflow:hidden'></div>
+        <div id="navigation"></div>
+    </div>
+</body>
+</html>
