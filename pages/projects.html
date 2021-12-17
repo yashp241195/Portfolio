@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questions</title>
+    <title>Projects</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     const mypages = [
-        { name: "Basic", src:"questions/basics.html"},
+        { name: "Helplink", src:"projects/helplink.html"},
+        { name: "Artistt", src:"projects/artistt.html"},
+        { name: "Datemee", src:"projects/datemee.html"},
+        { name: "Delhi Metro", src:"projects/delhimetro.html"},
     ]
 
-    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none\" href=\"#\">"+page.name+"</nav></a></li>"
+    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none; font-size:10px;\" href=\"#\">"+page.name+"</nav></a></li>"
     
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
         $("nav").click(function(){ $("#page").html('<embed type="text/html" width="650" height="540" src="'+$(this).attr("src")+'">') })
     });
+
     </script>
     <style>
         #page{height: 540px; width: 530px; }
