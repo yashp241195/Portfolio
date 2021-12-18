@@ -28,19 +28,16 @@
   overflow: hidden;
 }
 </style>
-<script>
-var questionList = [
-        {q:"a",a:"x",t:"#m #n #x"},
-        {q:"b",a:"y",t:"#n #g #x"},
-        {q:"c",a:"z",t:"#m #r #o #x"},
-        {q:"d",a:"p",t:"#n #o #x"},
-    ]
 
-</script>
-
+<script src="data/questions.js"></script> 
 
 <script>
-    
+
+    var questionList=[]
+    allQuestions.map(item=>{
+        const {Questions, Answers, tags} = item
+        questionList.push({q:Questions,a:Answers,t:tags}) 
+    })
 
     const questionItemWrap = (item) => {
         const {q, a, t} = item
@@ -66,8 +63,8 @@ var questionList = [
     }
 
     const hashSearch = (main, search) => {
-      let main_arr = main.split(" ")
-      let search_arr = search.split(" ")
+      let main_arr = main.toLowerCase().split(" ")
+      let search_arr = search.toLowerCase().split(" ")
       let count = 0;
       for(let i=0;i<main_arr.length;i++){
         for(let j=0;j<search_arr.length;j++){
@@ -76,6 +73,19 @@ var questionList = [
         }
       }
       return (count == search_arr.length)?1:-1
+    }
+
+    const querySearch = (main, search) => {
+      let main_arr = main.toLowerCase().split(" ")
+      let search_arr = search.toLowerCase().split(" ")
+      let count = 0;
+      for(let i=0;i<main_arr.length;i++){
+        for(let j=0;j<search_arr.length;j++){
+          if(main_arr[i] == search_arr[j])
+            {count++;}
+        }
+      }
+      return count>0
     }
 
     $(document).ready(function(){
@@ -88,7 +98,8 @@ var questionList = [
         var value = $(this).val().toLowerCase();
         $("#myList li").filter(function() {
           $(this).toggle(hashSearch($(this).children("t").text().slice(5).toLowerCase(),value.slice(5)) > -1
-          || $(this).children("q").text().toLowerCase().indexOf(value) > -1)
+          || querySearch($(this).children("q").text().slice(6).toLowerCase(),value.slice(6))
+          )
         });
       });
       $(".mytagg").click(function(){
