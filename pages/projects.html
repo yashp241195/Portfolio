@@ -14,7 +14,7 @@
         { name: "Delhi Metro", src:"projects/delhimetro.html"},
     ]
 
-    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none; font-size:10px;\" href=\"#\">"+page.name+"</nav></a></li>"
+    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none; \" href=\"#\">"+page.name+"</nav></a></li>"
     
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')

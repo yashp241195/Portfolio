@@ -1,32 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questions</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-    const mypages = [
-        { name: "Basic", src:"questions/basics.html"},
+<title>Questions</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+<script>
+var questionList = [
+        {q:"a",a:"x",t:"#m #n #x"},
+        {q:"b",a:"y",t:"#n #g #x"},
+        {q:"c",a:"z",t:"#m #r #o #x"},
+        {q:"d",a:"p",t:"#n #o #x"},
     ]
 
-    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none\" href=\"#\">"+page.name+"</nav></a></li>"
+</script>
+
+
+<script>
     
+
+    const questionItemWrap = (item) => {
+        const {q, a, t} = item
+        const result = "<li><q style=\"visibility: hidden;\">query:"
+            +q+""+"</q>"+"<t style=\"visibility: hidden;\">tags:"
+            +t+"</t>"+"<button class=\"accordion\"><b>Q. "
+            +q+"</b><br><b>tags</b>:"
+            +t+""+"</button><div class=\"panel\"><p><a>"
+            +a+"</a></p></div></li>"
+        return result
+    }
+
+    const tagWrap = (item) =>"<a href=\"#\" class=\"mytagg\">"+item+"</a>"
+
+    const extractTags = (questionList) => {
+      var listofalltags = []
+      for(let i = 0; i < questionList.length; i++){
+        const ql = questionList[i];
+        listofalltags.push(...ql.t.split(" "))
+      }
+      const newarray = [ ...new Set(listofalltags) ]
+      return " "+newarray.map(item => tagWrap(item)).reduce((result, item)=> result+" "+item+" ")+" "
+    }
+
+    const hashSearch = (main, search) => {
+      let main_arr = main.split(" ")
+      let search_arr = search.split(" ")
+      let count = 0;
+      for(let i=0;i<main_arr.length;i++){
+        for(let j=0;j<search_arr.length;j++){
+          if(main_arr[i] == search_arr[j])
+          {count++;}
+        }
+      }
+      return (count == search_arr.length)?1:-1
+    }
+
     $(document).ready(function(){
-        $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
-        $("nav").click(function(){ $("#page").html('<embed type="text/html" width="650" height="540" src="'+$(this).attr("src")+'">') })
+      $("#alltags").html("<br>Tags: "+extractTags(questionList)+"<br>")
+      $('input[name="group1"]').click(function(){$("#myInput").val($('input[name="group1"]:checked').val())})
+      $("#myList").html(questionList.map(item=>questionItemWrap(item)).reduce((result, item)=> result+item))
+      $("li").click(function(){$(this).children("div").toggle()})
+      
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myList li").filter(function() {
+          $(this).toggle(hashSearch($(this).children("t").text().slice(5).toLowerCase(),value.slice(5)) > -1
+          || $(this).children("q").text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+      $(".mytagg").click(function(){
+        $("#myInput").val("tags:"+this.text)
+        var e2 = $.Event( "keyup", { keyCode: 13 } );
+        $('#myInput').trigger(e2);
+      })
+
     });
-    </script>
-    <style>
-        #page{height: 540px; width: 530px; }
-        #navigation{ height: 540px; width: 250px;}
-    </style>
+</script>
+
 </head>
-<body style='overflow:hidden'>
-    <div style="display: flex; width: 735px;" id="main">
-        <div id="navigation"></div>
-        <div id="page"></div>
-    </div>
+<body>
+<div style="padding-left: 50px;">
+    <h2>Questions</h2>
+    <input id="myInput" style="width: 400px;" type="text" value="query:" placeholder="Search ..">
+    <br><br><input type="radio" value="query:" name="group1" checked>query
+    <input type="radio" value="tags:" name="group1">tags
+    <br>
+    <div id="alltags"></div>
+</div>
+<ul id="myList" style="list-style: none; width: 600px;"></ul>
+<br>
 </body>
 </html>
