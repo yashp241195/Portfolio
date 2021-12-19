@@ -4,6 +4,7 @@
 <title>Questions</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style>
+  
 .accordion {
   background-color: #eee;
   color: #444;
@@ -39,11 +40,11 @@
         questionList.push({q:Questions,a:Answers,t:tags}) 
     })
 
-    const questionItemWrap = (item) => {
+    const questionItemWrap = (item,i) => {
         const {q, a, t} = item
         const result = "<li><q style=\"visibility: hidden;\">query:"
             +q+""+"</q>"+"<t style=\"visibility: hidden;\">tags:"
-            +t+"</t>"+"<button class=\"accordion\"><b>Q. "
+            +t+"</t>"+"<button class=\"accordion\"><b>Q"+(i+1)+". "
             +q+"</b><br><b>tags</b>:"
             +t+""+"</button><div class=\"panel\"><p><a>"
             +a+"</a></p></div></li>"
@@ -63,8 +64,8 @@
     }
 
     const hashSearch = (main, search) => {
-      let main_arr = main.toLowerCase().split(" ")
-      let search_arr = search.toLowerCase().split(" ")
+      let main_arr = main.toLowerCase().trim().split(" ")
+      let search_arr = search.toLowerCase().trim().split(" ")
       let count = 0;
       for(let i=0;i<main_arr.length;i++){
         for(let j=0;j<search_arr.length;j++){
@@ -76,8 +77,8 @@
     }
 
     const querySearch = (main, search) => {
-      let main_arr = main.toLowerCase().split(" ")
-      let search_arr = search.toLowerCase().split(" ")
+      let main_arr = main.toLowerCase().trim().split(" ")
+      let search_arr = search.toLowerCase().trim().split(" ")
       let count = 0;
       for(let i=0;i<main_arr.length;i++){
         for(let j=0;j<search_arr.length;j++){
@@ -91,21 +92,28 @@
     $(document).ready(function(){
       $("#alltags").html("<br>Tags: "+extractTags(questionList)+"<br>")
       $('input[name="group1"]').click(function(){$("#myInput").val($('input[name="group1"]:checked').val())})
-      $("#myList").html(questionList.map(item=>questionItemWrap(item)).reduce((result, item)=> result+item))
+      $("#myList").html(questionList.map((item,i)=>questionItemWrap(item,i)).reduce((result, item)=> result+item))
       $("li").click(function(){$(this).children("div").toggle()})
       
       $("#myInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
+        var value = $(this).val().toLowerCase()
         $("#myList li").filter(function() {
-          $(this).toggle(hashSearch($(this).children("t").text().slice(5).toLowerCase(),value.slice(5)) > -1
-          || querySearch($(this).children("q").text().slice(6).toLowerCase(),value.slice(6))
-          )
+            $(this).toggle(hashSearch($(this).children("t").text().slice(5).toLowerCase(),value.slice(5)) > -1
+            || querySearch($(this).children("q").text().slice(6).toLowerCase(),value.slice(6))
+            )          
         });
       });
       $(".mytagg").click(function(){
+        $("input[name=group1][value='tags:']").prop("checked",true);
         $("#myInput").val("tags:"+this.text)
         var e2 = $.Event( "keyup", { keyCode: 13 } );
         $('#myInput').trigger(e2);
+      })
+
+      $("input[name=group1]").change(function(){
+        if($(this).val() == 'all:'){
+          $("#myList").html(questionList.map((item,i)=>questionItemWrap(item,i)).reduce((result, item)=> result+item))
+        }
       })
 
     });
@@ -115,11 +123,18 @@
 <body>
 <div style="padding-left: 50px;">
     <h2>Questions</h2>
+    <p>
+      <i>
+        My words makes no difference unless it allow you to make observations.
+      </i>
+    </p>
+
     <input id="myInput" style="width: 400px;" type="text" value="query:" placeholder="Search ..">
     <br><br><input type="radio" value="query:" name="group1" checked>query
     <input type="radio" value="tags:" name="group1">tags
-    <br>
-    <div id="alltags"></div>
+    <input type="radio" value="all:" name="group1">all
+
+    <div style="width: 600px;" id="alltags"></div>
 </div>
 <ul id="myList" style="list-style: none; width: 600px;"></ul>
 <br>
