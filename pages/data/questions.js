@@ -153,7 +153,7 @@ var allQuestions = [
         this is also biological conditioning, earlier in jungle, chimpanzee need to name and form the image of anything which comes nearby as prey or predator for their survival. We talk to the people 
         on the basis of image we formed about them instead of actually communicating with them and collecting real data, you can checkout your history it is there even in your chats you can see this.
         Conditioning is million years old and the new social structure we created is few thousand years old and our education and parenting is only 20 year old that's why <b>whenever we loose awareness we follow biology.</b>
-        <br><br>This tendency of naming things and it's consequences were also mentioned by <b>Guru Nanak</b> in <i>"ek onkar satnam"</i> and how it hide the truth.
+        <br><br>This tendency of naming was mentioned by <b>Guru Nanak</b> in <i>"ek onkar satnam"</i> and explained how "naming" or "definitions" hide the truth.
         `
     },
     {
