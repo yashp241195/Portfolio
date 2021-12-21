@@ -1,8 +1,35 @@
 
 var allTutorials = [
     {
+        Title:"Tag Index",
+        tags:"#index",
+        Blog:`
+        <h4>Tag Index</h4>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>hashtags</th><th>topics</th></tr>
+        <tr><td>#dsa</td><td> data structures and algorithms </td></tr>
+        <tr><td>#web</td><td>html,css,javascript</td></tr>
+        <tr><td>#mernweb</td><td>mern stack (mongodb,expressjs,reactjs,nodejs) </td></tr>
+        <tr><td>#microservice</td><td> microservice achitecture, amazon,whatsapp,twitter,netflix </td></tr>
+        <tr><td>#soa</td><td> service oriented architecture,amazon,uber </td></tr>
+        <tr><td>#dbms</td><td> database management system</td></tr>
+        <tr><td>#soa</td><td> </td></tr>
+        <tr><td>#soa</td><td> </td></tr>
+        <tr><td>#soa</td><td> </td></tr>
+        </table>
+        `
+    },
+    {
         Title:"basic web development with html,css,javascript",
-        tags:"#html #css #javascript #web #frontend #basic",
+        tags:"#programming #web #tutorial",
         Blog:`
         Web browser read H.T.M.L. (hypertext markup language) code and create D.O.M. (document object model) tree corresponding to that in the memory. CSS helps you to style components of D.O.M tree
         and then javascript helps you manipulate the DOM tree in memory programmatically.
@@ -38,7 +65,7 @@ var allTutorials = [
     },
     {
         Title:"basic programming in python",
-        tags:"#python #basic #programming",
+        tags:"#python #programming #tutorial",
         Blog:`
         <h4>Basic programming in python</h4>
         4 Fundamentals of basic programming : <br>
@@ -120,7 +147,7 @@ var allTutorials = [
     },
     {
         Title:"linux command line, bash ",
-        tags:"#linux #basic #programming",
+        tags:"#linux #programming #tutorial",
         Blog:`
         <h4>Basic Linux Commands</h4>
         <h4>Basic Commands</h4>
@@ -187,7 +214,7 @@ var allTutorials = [
     },
     {
         Title:"object oriented programming",
-        tags:"#oop #basic #programming #python",
+        tags:"#oop #programming #python #tutorial",
         Blog:`
         <h4>Object Oriented Programming</h4>
         <p>
@@ -285,7 +312,7 @@ var allTutorials = [
     },
     {
         Title:"functional programming",
-        tags:"#fp #basic #programming #python",
+        tags:"#functionalprog #programming #python #tutorial",
         Blog:`
         <h4>Functional Programming</h4>
         <p>
@@ -442,6 +469,360 @@ var allTutorials = [
         </table>
         `
     },
+    {
+        Title:"SOLID Priciple in OOP",
+        tags:"#oop #programming #python #tutorial",
+        Blog:`
+        <h4>SOLID Priciple in OOP</h4>
+        <p>
+        Functional programming is based on lambda calculus which helps
+        mathematicians to represent and operate computations more conviniently.
+        </p>
+        <pre>
+
+        # S.O.L.I.D. principle in OOP
+
+        # S : Single Responsibility
+        
+        class Circle():
+            def __init__(self,r):
+                self.radius = r
+            def area(self):
+                return 3.14*(self.radius**2)
+        
+        c = Circle(5)
+        print(c.area())
+        
+        # O : Open Closed 
+        
+        class Square():
+            def __init__(self,a):
+                self.side = a
+            def area(self):
+                return (self.side**2)
+            def param(self):
+                return 4*self.side
+                
+        s1 = Square(3)
+        print(s1.area())
+        print(s1.param())
+        
+        # L : Liskov Substitution, derived class object can be substituted in place of base class object
+        
+        class Shape():
+            def __init__(self):
+                pass
+            def area(self):
+                return 0
+        
+        class Rectangle(Shape):
+            def __init__(self, l, w):
+                self.length = l
+                self.width = w
+            def area(self):
+                return self.length * self.width
+        
+        # r = Rectangle(10,20)
+        # print("area ",r.area())
+        # print("parameter ",r.parameter())
+        
+        # I : Interface Segregation,
+        
+        class SMSDevice():
+            def sms(self):
+                print("sms ..")
+                pass
+        
+        class CallDevice():
+            def call(self):
+                print("call")
+                pass
+        
+        class SmartPhone(SMSDevice, CallDevice):
+            def __init__(self):
+                pass
+            def sms(self):
+                super().sms()
+            def call(self):
+                super().call()
+            
+        smPh = SmartPhone()
+        smPh.sms()
+        smPh.call()
+        
+        
+        # Dependency Inversion
+        
+        class Employee(object):
+            def Work():
+                pass
+              
+        class Manager():
+            def __init__(self):
+                self.employees=[]
+            def addEmployee(self,a):
+                self.employees.append(a)
+           
+        class Developer(Employee):
+            def __init__(self):
+                print("developer added")
+            def Work():
+                print("turning coffee into code")
+                  
+        class Designer(Employee):
+            def __init__(self):
+                print("designer added")
+            def Work():
+                print("turning lines to wireframes")
+        
+                  
+        a=Manager()
+        a.addEmployee(Developer())
+        a.addEmployee(Designer())
+
+        </pre>
+        <h4>Core Concepts</h4>
+        (i) Single Responsibility Principle (SRP) states that a Class or Module 
+        should have one job to do and hence it should have only one reason to change.
+        <br>
+        (ii) The Open-Closed principle states that a Class or Module should be open 
+        to extensions and closed for modifications.        
+        <br>
+        (iii) Liskov Substitution Principle states that if we have a base class and 
+        a child class, then objects of the base class should be substituted by objects 
+        of child class without giving incorrect results. <br>
+        (iv) The Interface Segregation Principle states that clients should not be forced 
+        to depend on methods that they do not use. <br>
+        (v) Dependency inversion : that high level modules should not depend on low level modules; 
+        both should depend on abstractions. Instead of depending upon low level modules like designer 
+        and developer manager as high level module or class should be dependent upon abstract class 
+        "employee". Now I can add different kinds of employees even without designer 
+        and developer.
+        <h4>Few other principles</h4>
+        DRY : Don't repeat Yourself, avoid code which repeat itself.<br>
+        KISS : Keep it simple stupid, don't try to make code complex unnecessarily<br> 
+        <br>
+        `
+    },
+    {
+        Title:"How to approach data structures, algorithms",
+        tags:"#dsa #programming #tutorial",
+        Blog:`
+        <h4>Approaching Data structures and Algorithms</h4>
+        (i) Don't memorize instead visualize, when you become capable enough
+        to visualize then only you will be able to solve difficult questions.
+        <br>
+        (ii) Loop and recursion are the foundation of coding, don't touch 
+        anything else unless you become good at recursion or loops. 
+        <br> but really Why?? <br>
+        a. mergesort, quicksort, graph, tree etc recursion everywhere<br>
+        b. linkedlist, array, stack, etc loops everywhere<br>
+        Any variation in loop or recursion will make you stressed if you are
+        not able to visualize. Give huge amount of time to these two topics,
+        I will highly recommend 
+        <a target="_blank" href="https://codingbat.com/java" >codingbat.com</a>,
+        this website has a lots of easy to hard questions on recursion and loops 
+        and designed by an experienced professor as they design things in 
+        consideration of human psychology instead of posting questions like a pile 
+        of garbage just like we saw questions on coding websites. 
+        <br>
+        (iii) Try to solve the question with recursion you generally solve with 
+        loops and solve questions with loops which you solve with recursion.
+        <br>
+        (iv) Practice coding problems upto a certain level till your brain 
+        start giving auto suggestions. 
+        <br><br>
+        Don't think doing data structures and algorithms will solve all other problems 
+        of software engineering and business due to which engineering job exists.
+        <br><br>
+        `
+    },
+    {
+        Title:"How to pick the right database",
+        tags:"#dbms #programming #tutorial",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"MERN Stack Web Dev for Tourist app (RESTfulAPI)",
+        tags:"#mern #restapi #web #dbms #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"MERN Stack Web Dev for Book app (GraphQLAPI)",
+        tags:"#mern #graphql #web #dbms #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Requirements to Low Level Diagram to code",
+        tags:"#soa #systemdesign #programming #microservice #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Service oriented architecture, High Level Diagram for Amazon, Uber",
+        tags:"#soa #systemdesign #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Microservice architecture, High Level Diagram for Amazon, Whatsapp, Twitter, Netflix",
+        tags:"#soa #systemdesign #programming #microservice #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Git, Version Control System(VCS)",
+        tags:"#git #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Deployment, Virtual Machine vs Container (Docker, Kubernetes)",
+        tags:"#deployment #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"DevOps, AWS, Terraform, Jenkins",
+        tags:"#devops #aws #deployment #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Machine Learning, Movie Recommendation",
+        tags:"#machinelearning #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },{
+        Title:"Blockchain, Simple Bank",
+        tags:"#blockchain #solidity #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    ,{
+        Title:"Instagram Marketing automation with SeleniumPy",
+        tags:"#marketing #python #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Devhelp linux helper tool",
+        tags:"#linux #programming #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"UI Design with Figma, Pinterest Example",
+        tags:"#ui #ux #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    }
+    ,
+    
+    {
+        Title:"Design Thinking,Product Design DSAEE+SSTCC methodology",
+        tags:"#productdesign #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Product Managment, Agile, Scrum board with Trello(Jira)",
+        tags:"#productmanagement #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Social Media Marketing",
+        tags:"#marketing #businessgrowth #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"App Marketing",
+        tags:"#marketing #businessgrowth #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Entrepreneur Growth Cycle and Business Development Strategy",
+        tags:"#business #businessgrowth #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Startup Investment Fundamentals",
+        tags:"#business #businessgrowth #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Recruitment for startup",
+        tags:"#business #businessgrowth #recruitment #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Mentorship, Parenting, Leadership and Training",
+        tags:"#business #leadership #mentorship #businessgrowth #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+    {
+        Title:"Sales, Communication (LIACP) and importance of personal growth",
+        tags:"#business #sales #businessgrowth #personalgrowth #tutorial #project",
+        Blog:`
+        <h4>Types of databases</h4>
+        <p>this is database</p>
+        `
+    },
+ 
 
 ]
 

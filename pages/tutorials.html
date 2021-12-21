@@ -44,7 +44,7 @@
         const {q, a, t} = item
         const result = "<li><q style=\"visibility: hidden;\">query:"
             +q+""+"</q>"+"<t style=\"visibility: hidden;\">tags:"
-            +t+"</t>"+"<button class=\"accordion\"><b>Lec"+(i+1)+". "
+            +t+"</t>"+"<button class=\"accordion\"><b>Lec"+(i)+". "
             +q+"</b><br><b>tags</b>:"
             +t+""+"</button><div class=\"panel\"><p><a>"
             +a+"</a></p></div></li>"
@@ -114,6 +114,22 @@
         if($(this).val() == 'all:'){
           $("#myList").html(questionList.map((item,i)=>questionItemWrap(item,i)).reduce((result, item)=> result+item))
         }
+        if($(this).val() == 'index:'){
+          $("#myInput").val("tags: #index")
+          var e2 = $.Event( "keyup", { keyCode: 13 } );
+          $('#myInput').trigger(e2);
+        }
+        if($(this).val() == 'project:'){
+          $("#myInput").val("tags: #project")
+          var e2 = $.Event( "keyup", { keyCode: 13 } );
+          $('#myInput').trigger(e2);
+        }
+        if($(this).val() == 'tutorial:'){
+          $("#myInput").val("tags: #tutorial")
+          var e2 = $.Event( "keyup", { keyCode: 13 } );
+          $('#myInput').trigger(e2);
+        }
+        
       })
 
     });
@@ -133,8 +149,12 @@
   <br><br><input type="radio" value="query:" name="group1" checked>query
   <input type="radio" value="tags:" name="group1">tags
   <input type="radio" value="all:" name="group1">all
+  <input type="radio" value="index:" name="group1">index
+  <input type="radio" value="project:" name="group1">project
+  <input type="radio" value="tutorial:" name="group1">tutorial
 
   <div style="width: 600px;" id="alltags"></div>
+
 </div>
 <ul id="myList" style="list-style: none; width: 600px;"></ul>
 <br>
