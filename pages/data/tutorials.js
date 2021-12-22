@@ -23,7 +23,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"basic web development with html,css,javascript",
+        Title:"basic web development with html css javascript",
         tags:"#programming #web #tutorial",
         Blog:`
         Web browser read H.T.M.L. (hypertext markup language) code and create D.O.M. (document object model) tree corresponding to that in the memory. CSS helps you to style components of D.O.M tree
@@ -141,7 +141,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"linux command line, bash ",
+        Title:"linux command line , bash ",
         tags:"#linux #programming #tutorial",
         Blog:`
         <h4>Basic Linux Commands</h4>
@@ -465,7 +465,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"SOLID Priciple in OOP",
+        Title:"SOLID Priciple in object oriented programming",
         tags:"#oop #programming #python #tutorial",
         Blog:`
         <h4>SOLID Priciple in OOP</h4>
@@ -600,7 +600,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"How to approach data structures, algorithms",
+        Title:"How to approach data structures , algorithms",
         tags:"#dsa #programming #tutorial",
         Blog:`
         <h4>Approaching Data structures and Algorithms</h4>
@@ -641,15 +641,84 @@ var allTutorials = [
         `
     },
     {
-        Title:"MERN Stack Web Dev for Tourist app (RESTfulAPI)",
+        Title:"MERN Stack Web Dev for Tourist app ( REST API ) , How to pick right React JS framework for frontend",
         tags:"#mern #restapi #web #dbms #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Tourist App (MERN Stack Application)</h4>
+        <h4>Designing the App</h4>
+        <p>
+        The first step is to design the app User Interface (UI) according to your 
+        needs in designing tools like Figma, design the backend of the app by 
+        designing API and databases.
+        </p>
+        <h4> Design in Figma </h4>
+        <img src="data/images/mern/mern1.jpeg" height="450" width="600"/>
+        <img src="data/images/mern/mern2.jpeg" height="400" width="600"/>
+        <div style="margin-left:-200px;" >
+        <img src="data/images/mern/mern3.jpeg" height="850" width="1550"/>
+        </div>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <h4>Tourist App (MERN Stack Application)</h4>
+        <p>
+        M : MongoDB : Non Relational Database, <br>
+        E : Express : Backend REST API framework built on NodeJS<br>
+        R : React JS : Frontend framework based on NodeJS<br>
+        N : Node JS : Framework for web development <br>
+        </p>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>Tourist(frontend:NextJS(reactjs))</td><td> <a target="_blank" href="https://github.com/yashp241195/tourist-frontend" >tourist-frontend</a> </td></tr>
+        <tr><td>Tourist(backend:ExpressJS,SwaggerDocs)</td><td> <a target="_blank" href="https://github.com/yashp241195/tourist-backend" > tourist-backend</a> </td></tr>
+        </table>
+        <br>
+        <img src="data/images/mern/mern4.jpg" height="500" width="500"/>
+        <img src="data/images/mern/mern5.jpg" height="500" width="500"/>
+        <img src="data/images/mern/mern6.jpg" height="500" width="500"/>
+       
+        <h4>Lectures</h4>
+        <p>The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Course Name</th><th> Category </th><th> Tutorial URL</th></tr>
+        <tr><td> NodeJS Basic </td><td>Web (Basic)</td><td> <a target="_blank" href="https://www.youtube.com/watch?v=TlB_eWDSMt4" >nodejs-mosh</a> </td></tr>
+        <tr><td> ReactJS with Hooks	</td><td>Web (Frontend)</td><td> <a target="_blank" href="https://www.youtube.com/watch?v=9U3IhLAnSxM" >reactjs-with-hooks</a> </td></tr>
+        <tr><td> NextJS Full </td><td>Web (Frontend)</td><td> <a target="_blank" href="https://www.youtube.com/watch?v=7J4iL1HDshQ&list=PLYSZyzpwBEWSQsrukurP09ksi49H9Yj40" >nextjs-bruno</a> </td></tr>
+        <tr><td> NextJS Cookies	</td><td>Web (Frontend)</td><td> <a target="_blank" href="https://www.youtube.com/watch?v=_AYuhmz-fX4" >nextjs-cookies</a> </td></tr>
+        <tr><td> REST API Express Basic	</td><td>Web (Backend)</td><td> <a target="_blank" href="https://www.youtube.com/watch?v=pKd0Rpw7O48" >RESTAPI-express-mosh</a> </td></tr>
+        <tr><td> REST API Express Full</td><td>Web (Backend)</td><td> <a target="_blank" href="https://www.youtube.com/watch?v=zx6jnaLuB9Q&list=PLSpJkDDmpFZ7GowbJE-mvX09zY9zfYatI" >RESTAPI-express-full-codeworkr</a> </td></tr>
+        <tr><td> NodeJS Security</td><td>Web (Backend)</td><td> <a target="_blank" href="https://www.youtube.com/playlist?list=PLTgRMOcmRb3PcbiJAR6rQb1OaijMyy0Mp" >nodejs-security</a> </td></tr>
+        </table>
+        <br>
+        <h3> How to pick right ReactJS framework for frontend ? </h3>  
+        <p>
+        The same tourist app could be created with pure reactjs  
+        "create-react-app" as well instead of nextjs. For small project 
+        like that, it really doesn't matter but when we create anything
+        real project which we are supposed to maintain and provide services
+        then we need to consider the following.
+        </p>
+        <p>
+        <br> 1. If you want to build site which is mostly static (blog, portfolio, landing page), use Gatsby, its not SSR, but it pre-renders the website into HTML at the build time
+        <br> 2. If you want to build a web app with react, and you care about SEO, easier social media optimization and faster render for user you should think about SSR and framework like next.js
+        <br> 3. If you building a SPA (single page application), and you dont want to configure everything on the server side like: i18n, router e.t.c. you should use create-react-app
+        </p>
+        
+
+
+
         `
     },
     {
-        Title:"MERN Stack Web Dev for Book app (GraphQLAPI)",
+        Title:"MERN Stack Web Dev for Book app ( GraphQL API )",
         tags:"#mern #graphql #web #dbms #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -657,39 +726,104 @@ var allTutorials = [
         `
     },
     {
-        Title:"Requirements to Low Level Diagram to code",
+        Title:"Requirements to Low Level Diagram to code , How to improve software development speed",
         tags:"#soa #systemdesign #programming #microservice #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h3>Requirements to Low Level Diagram to code</h3>
+        <p>
+        Low Level Design, LLD helps to create working product from concept quickly.
+        </p>
+        <img src="data/images/lld/projects08.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects09.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects10.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects11.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects12.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects13.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects14.jpeg" height="450" width="600"/>
+        <img src="data/images/lld/projects15.jpeg" height="450" width="600"/>
+        <h3>How to improve software development speed</h3>
+        0. Improve typing speed and capabilities so that you can type without fatigue and also reading speed as well if you can't stare at books or texts for longer duration and get tired really quick then there is no way for you to improve anything. Everything you do requires lots of physical energy also.
+        <br><br>1. Learn linux commands and start using command lines tools such as linux terminal and learn it well because most solutions on stackoverflow is in that format and if you miss that thing you will not able to get helped easily. Answer could be right infront of you and you'll wonder what to do and how to tweak it to solve the issues.
+        <br><br>2. First step to anything is to print hello world irrespective of the language or framework. Always test whether functionalities are working properly or not before developing anything. Always look wthether library support for given language or framework is good enough or not. Don't write any code before confirming whether the most basic possible code is working or not.
+        <br><br>3. Always focus on abstraction like if you are creating a backend don't focus on whether you are doing Nodejs Python PHP Golang etc always focus on designing the RestAPI or GraphQL or gRpc or Socket or whatever needed to make software functional. In Frontend as well don't focus on material UI or bootstrap or anything just focus of simple HTML or the simple React JSX to input and output the data and some very basic styling with css.
+        <br><br>4. Design the Low Level Diagram of the most basic version of the software without worrying about any optimization, efficiency or anything.
+        <br><br>5. Develop and deploy the first version of the software without worrying about the functionality but worrying about whether my code work without bugs and errors or not. Modify the code and fix bugs and create the minimal feature and ensure whether user is able to use software properly or not.
+        <br><br>6. Design the next iteration and implement only specific feature and develop app iteration wise and create the list of task needed to be done in each iterations  
         `
     },
     {
-        Title:"Service oriented architecture, High Level Diagram for Amazon, Uber",
+        Title:"Service oriented architecture , High Level Diagram for Amazon , Uber",
         tags:"#soa #systemdesign #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h3>Service Oriented Architecture</h3>
+        <p>
+        Service Oriented Architecture (SOA) splits the big monolith application into multiple 
+        services so that it can handle big scale applications more efficiently and also allow 
+        reusability of resources. In SOA, smaller teams can work on independent services which 
+        allows faster development, deployment, bug fixing and healing which is extremely important 
+        for large scale applications as every second is the second of business transaction.
+        </p>
+        <div style="margin-left:-30px;">
+            <img src="data/images/hld/projects16.jpeg" height="500" width="640"/>
+        </div>
+        <div style="margin-left:-30px;">
+            <img src="data/images/hld/projects17.jpeg" height="500" width="640"/>
+        </div>
+
+
         `
     },
     {
-        Title:"Microservice architecture, High Level Diagram for Amazon, Whatsapp, Twitter, Netflix",
+        Title:"Microservice architecture , High Level Diagram for Amazon , Whatsapp , Twitter , Netflix",
         tags:"#soa #systemdesign #programming #microservice #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Microservice architecture </h4>
+        <p>
+        Microservice architecture is also a way to implement Service Oriented Architecture.
+        Microservices is an architectural design for building a distributed application using containers. 
+        They get their name because each function of the application operates as an independent service. 
+        This architecture allows for each service to scale or update without disrupting other services in the application.
+        </p>
+        <div style="margin-left:-100px;">
+        <img src="data/images/hld/projects18.jpg" height="550" width="650"/>
+        </div>
+        <div style="margin-left:-30px;">
+        <img src="data/images/hld/projects19b.jpg" height="920" width="630"/>
+        </div>
+        <div style="margin-left:-30px;">
+        <img src="data/images/hld/projects19c.jpg" height="920" width="630"/>
+        </div>
+        <div style="margin-left:-80px;">
+        <img src="data/images/hld/projects20a.jpg" height="920" width="700"/>
+        </div>
+        <div style="margin-left:-50px;">
+        <img src="data/images/hld/projects20b.jpg" height="980" width="680"/>
+        </div>
+        <div style="overflow-x:scroll; margin-left:-90px;">
+        <img src="data/images/hld/projects21a.jpg" height="800" width="1060"/>
+        </div>
+        <div style="margin-left:-50px;">
+        <img src="data/images/hld/projects21b.jpg" height="900" width="680"/>
+        </div>
+        <div style="overflow-x:scroll; margin-left:-50px;">
+        <img src="data/images/hld/projects22a.jpg" height="750" width="800"/>
+        </div>
+        <div style="margin-left:-20px;">
+        <img src="data/images/hld/projects22b.jpg" height="700" width="580"/>
+        </div>
+
         `
     },
     {
-        Title:"Git, Version Control System(VCS)",
-        tags:"#git #programming #tutorial #project",
+        Title:"Git , Version Control System ( VCS ) ",
+        tags:"#git #deployment #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
         `
     },
     {
-        Title:"Deployment, Virtual Machine vs Container (Docker, Kubernetes)",
+        Title:"Deployment , Virtual Machine vs Container ( Docker , Kubernetes )",
         tags:"#deployment #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -697,7 +831,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"DevOps, AWS, Terraform, Jenkins",
+        Title:"DevOps , AWS , Terraform , Jenkins",
         tags:"#devops #aws #deployment #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -705,21 +839,22 @@ var allTutorials = [
         `
     },
     {
-        Title:"Machine Learning, Movie Recommendation",
-        tags:"#machinelearning #programming #tutorial #project",
+        Title:"Machine Learning , Movie Recommendation",
+        tags:"#machinelearning #python #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
         `
-    },{
-        Title:"Blockchain, Simple Bank",
+    },
+    {
+        Title:"Blockchain , Simple Bank",
         tags:"#blockchain #solidity #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
         `
     },
-    ,{
+    {
         Title:"Instagram Marketing automation with SeleniumPy",
         tags:"#marketing #python #programming #tutorial #project",
         Blog:`
@@ -728,7 +863,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Devhelp linux helper tool",
+        Title:"Devhelp linux helper tool for faster software development",
         tags:"#linux #programming #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -736,17 +871,15 @@ var allTutorials = [
         `
     },
     {
-        Title:"UI Design with Figma, Pinterest Example",
+        Title:"UI Design with Figma , Pinterest Example",
         tags:"#ui #ux #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
         `
-    }
-    ,
-    
+    },
     {
-        Title:"Design Thinking,Product Design DSAEE+SSTCC methodology",
+        Title:"Design Thinking , Product Design DSAEE + SSTCC methodology",
         tags:"#productdesign #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -754,7 +887,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Product Managment, Agile, Scrum board with Trello(Jira)",
+        Title:"Product Managment , Agile , Scrum board with Trello ( Jira )",
         tags:"#productmanagement #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -802,7 +935,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Mentorship, Parenting, Leadership and Training",
+        Title:"Mentorship , Parenting , Leadership and Training",
         tags:"#business #leadership #mentorship #businessgrowth #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
@@ -810,15 +943,13 @@ var allTutorials = [
         `
     },
     {
-        Title:"Sales, Communication (LIACP) and importance of personal growth",
+        Title:"Sales , Communication ( LIACP ) and importance of personal growth",
         tags:"#business #sales #businessgrowth #personalgrowth #tutorial #project",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
         `
     },
- 
-
 ]
 
 

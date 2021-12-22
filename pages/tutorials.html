@@ -112,7 +112,6 @@
 
       $("input[name=group1]").change(function(){
         if($(this).val() == 'all:'){
-          // $("#myList").html(questionList.map((item,i)=>questionItemWrap(item,i)).reduce((result, item)=> result+item))
           $("#myList li").filter(function(){
             $(this).toggle(true)
           })
