@@ -14,16 +14,11 @@ var allTutorials = [
           }
         </style>
         <table style="width:100%;border: 1px solid; ">
-        <tr><th>hashtags</th><th>topics</th></tr>
-        <tr><td>#dsa</td><td> data structures and algorithms </td></tr>
-        <tr><td>#web</td><td>html,css,javascript</td></tr>
-        <tr><td>#mernweb</td><td>mern stack (mongodb,expressjs,reactjs,nodejs) </td></tr>
-        <tr><td>#microservice</td><td> microservice achitecture, amazon,whatsapp,twitter,netflix </td></tr>
-        <tr><td>#soa</td><td> service oriented architecture,amazon,uber </td></tr>
-        <tr><td>#dbms</td><td> database management system</td></tr>
-        <tr><td>#soa</td><td> </td></tr>
-        <tr><td>#soa</td><td> </td></tr>
-        <tr><td>#soa</td><td> </td></tr>
+        <tr><th>Topics</th><th>Hashtags</th></tr>
+        <tr><td>Technical(Lec 1-20)</td><td> #programming </td></tr>
+        <tr><td>Product/UI(Lec 21-23)</td><td> #productdesign #productmanagement #ui</td></tr>
+        <tr><td>Marketing(Lec 24-25,19)</td><td> #marketing </td></tr>
+        <tr><td>Business Dev(Lec 26-30)</td><td> #business </td></tr>
         </table>
         `
     },
