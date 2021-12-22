@@ -972,16 +972,161 @@ var allTutorials = [
         Title:"Social Media Marketing",
         tags:"#marketing #businessgrowth #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h3>Social Media Marketing Strategies</h3>
+        <br>
+        <b>Stage I : Get people know who you are, your interests and your intentions. (500 members, 1-8 months)</b> 
+        <br>
+        <br>Q. How to get first 100 people without any knowledge of platform and connections?
+        <br><br>- Find a group where more than 1,000-10,000 people exists
+        <br>- Start engaging with people who has similar interests
+        <br>- Get yourself comfortable with the platform and learn how to use all of it's functionality
+        <br>- Start making personal connections and start inviting them to your own group.
+        <br>- You must need to have conversation with 20 people atleast and try to partner with 1-2 people atleast.
+        <br>- Start providing value for 2 weeks on regular basis and start growing the group/page till 100.
+        <br><br>You can do it faster if you invite people you already know and also familiar with the platform 
+        you created your page/group, it could be done in 10 days.
+        <br><br><b>Timeline (after 0 people):</b>
+        <br> 	
+        <br>min : 10 days
+        <br>max : 2 months
+        <br><br><b>Helplink Discord Server: 1 Month, 100 members</b>
+        <br><br><b>Don't s </b>
+        <br>
+        <br>- Start asking people too much personal questions, it took time to mature any kind of relationship.
+        <br>- Start selling or waiting for the right target audience.
+        <br>
+        <br>Q. How to start providing consistently bare minimum value on daily basis.
+        <br><br>You need to find 3-5 people who are interested to grow with you.
+        <br> - Start analyzing the demand like what exactly people are looking for on the platform and what you can provide them
+        <br> - Start thinking what you can provide from your end like advise or online resources etc.
+        <br><br> If you are already a user of that platform and you know what your community wants then it could be done in next 21 days
+        <br><br> <b>Timeline (after 100 people)</b> :
+        <br><br>min : 21 days.
+        <br>max : 6 months.
+        <br><br><b>Netmesh Discord Server : 500 members, 4 months</b>
+        <br><br><b>Don't s </b>
+        <br><br>- doing everything by your own self without forming any genuine relationships.
+        <br>- atleast 5 people must show interest and respond properly in your work regularly.
+        <br>- finding the perfect solution to offer, kind of reason why people are unable to even start as they start expecting a lot from their own self
+        <br><br>
+        <br><b>minimum time : 10 days + 21 days = 1 months</b>
+        <br><b>maximum time : 2 months + 6 months = 8 months</b>
+        <br><br>
+        <b>Stage II : People must know you are enough valuable to get the regular things done (10,000 members, 1-2 years)</b>
+        <br>
+        <br>Q. How to get people know what problem you are trying to solve.
+        <br><br>- You need to start providing the existing or little improved version of solutions
+        <br>- At least few people must start believing in your capabilities.
+        <br>- You must know your target audience, you can't invite everyone.
+	    <br><br>If you already know your target audience and strategy to invite them then you can do it within next 15 days.
+        <br><br><b>Timeline (after 500 people) :</b>
+        <br><br>min : 15 days
+        <br>max : 4 months
+        <br><br><b>Sigo Instagram Page : 2 months (after 500), 1000 members</b>
+        <br><br><b>Don't</b>
+	    <br><br>- Inviting everyone or not having a plan
+	    <br>- Overthinking about yourself and judging your self worth on the basis of other people opinion like you aren't good enough. 
+        It might be true that you aren't good enough but you will become good enough soon.
+        <br><br>
+        <b><i>Stage I and Stage II are strictly for making people aware about your existence and your intentions. Don't overthink and expect much. 
+        You don't need to be talented in order to do this you just need consistency and good behaviour towards people, nothing more</i></b>
+        <br><br> Stage I and II can be done in a single day as well if you find someone else doing similar thing (50% similar to what you want to pursue) 
+        but you need strategy to migrate current audience into new vision. You can do it by
+        <br><br>(i) Partnership. (Making the account owner as marketing partner, it is the best thing you can do as business isn't independent entity, the business requires multi dimensional solutions)
+        <br>(ii) Acquire the account with the help of some genuine 3rd party service like Social Tradia (for Instagram) where people buy and sell accounts legit way with the help of some third party service who does things like that. They will do the background verification and all kinds of things for you so that you don't have to worry about it later.
+        <br><br>
+        <b>Stage III : People must know that your are trustworthy and reliable</b>
+        <br><br>Q. Which is the right platform or where I can find my target audience more easily ?
+        <br>- The selection of platform plays key role, if you want to grow more faster and better then you must know the best platform for you.
+        <br><br>Q. How to start providing enough decent solutions ?
+        <br>- by improving skills and knowledge about the solutions you are providing
+        <br>- by letting people know that you deliver on time, your are trustworthy and reliable.
+        <br>- by making better content and branding strategy to get more people interested in you.
+        <br><br><b>Timeline (after 1000+)</b>
+        <br><br>min : 4 months.
+        <br>max : 2 years.
+        <br><br><b>Mona.marketing : 11 months (after 1000+), 10,000 members</b>
+        <br><br>
+        Stage III could be done in a single day by official partnership or official acquire but it requires more thinking 
+        because migration of the huge audience to new vision is difficult and generating the engagement of similar kind is also 
+        difficult and existing account has to be 80% similar with your vision. You may get the social account cheap but you won't 
+        be able to utilise and sustain it's growth and engagement. Consult social media marketing manager or someone in domain 
+        before doing such things and pay them to strategize things up because you need a lots of planning to make that shift successfully. 
+        <br><br>
+        <b>Stage IV : People must know that you are very unique in your offerings and your understanding regarding the platform must be really good. 
+        You are equivalent to a professional media company. (1,00,000 members, talent+marketing budget dependent)
+        </b>
+        <br><br>
+        <br>Q. How to provide real value ?
+        <br><br>- You need original thinking and creativity.
+        <br>- You have to become exceptionally good at your offerings and you are equivalent to a media company.
+        <br>- You need a business model and also a team to manage things more efficiently.
+        <br>- You need to figure out a way to increase your engagement with paid promotions, advertisements and collaborations.
+        <br><br><b>Timeline (after 10 K+ people):</b>
+        <br><br>min : 3 months
+        <br>max : 5 years
+        <br><br><b>Ekta Dixit : 1 year (after 10,000 members), 1,00,000 members</b>
+        <br><br>Stage IV can't be done in a single day and it needs some real talent to do such thing consistently. You can make that 
+        person brand ambassador and key promoter to get the similar results for your company. 
+        <br>
         `
     },
     {
         Title:"App Marketing",
         tags:"#marketing #businessgrowth #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h3>App Marketing</h3>
+        <b>Stage I : Finding the similar app to the app you wish to develop so that you gain market share of that app, because people who would like to use your app or 
+        concept won't appear magically.</b>
+        <br><br>
+        Q. What do you wish to develop ? Is there any app which is used by lots of people similar to your app concept by 30 % ?
+        <br><br>
+        <b>Delhi Metro Traveler : 10 K+ people</b>
+        <br><br>
+        I wish to create a journey planner app which plan can tour for me from a given starting point in a way that I don't have to worry about anything while traveling. 
+        I started visiting tourist places of Delhi via metro train in 2nd year of my college as it was very easy, convenient and cheap and I don't need permission from my 
+        parents for travel as I can get back to the home the same day. The travel structure is similar even if we visit some different city, there is always a need of place 
+        to stay within the city and we need to get back to that place at the end of the day as well. During travelling, I found few problems like no information about nearby 
+        toilets and parking within metro app and also the list of nearby tourist places, shopping malls, places to eat etc to the particular metro station. What will happen 
+        if I create a journey planner which tells me step by step like where to go in what sequence so that I can eat good food, always found parking and toilets in the routes 
+        in order to make my journey super convenient. I realised that if I am able to create such thing then I will be able to fulfil my dream to become traveller who travelled 
+        across 192 countries with the help of money I earn from ads. I built that app in Jan 2017 (3rd year-6th semester and it took me 2 months), I had no idea about how business 
+        works and no idea about how engineering works also or the amount of technical expertise and investment required to create such thing and also the potential revenue it can 
+        bring if implemented properly as I was a 13 year naive old teenager girl who got some freedom to travel in her own city and nearby but still I manage to think like what 
+        should I need to do in order to improve the reach of my app so I thought of creating Delhi metro app with features like train routes, nearby toilets, parking and places to 
+        visit and also embed the web browser to search other things with the help of search buttons.
+        <br><br>
+        <b>Timeline :</b>
+        <br><br>
+        <br>100 - 1 week
+        <br>1,000 - 3 weeks
+        <br>10,000 - 2 months
+        <br><br>
+        <b>Stage II : Finding the way to grow and sustain more users with the help of users feedback and responses.</b>
+        <br><br>
+        <b>Khabri : 100 K+ users (Currently 2 Mn+ users with 2 Mn USD funding)</b>
+        <br><br>
+        Q. How did Khabri get its first set of users?
+        <br><br>
+        The idea of the app was to broadcast news. Therefore, we started with broadcasting small snippets of audio news in an easily consumable manner. We got family and friends to download the app. The first 5000 - 7000 downloads were purely word of mouth.
+        Once we exhausted the downloads from all our contacts. We had a dataset that we could study. But, the problem was the information did not allow us to draw lines. One thing that we learned as a B2C company was not to try and solve all the issues at the same time.
+        Therefore, we targeted at getting 50K downloads within the next 3 months. This dataset would allow us to perform analytics. But the question was how do we get 50K downloads in 3 months?
+        <br><br>The big break ...
+        <br><br>For an app like ours, we need advertising. That was the only way by which more people would reach out to us. But, how to promote a B2C company organically?
+        We reached out to journalists from different magazines and newspapers to write about our app. But, at this stage, we were still curating news articles, thereby making it impossible for press giants to write about us. It was against their policy to promote a news channel.
+        We then realized the mistake that we were making ...
+        <br><br>The main idea of the app was to promote content in the national language so that it reaches out to even the rural part of India. In a country like ours, 70% of the population are from rural areas. Once we cracked this, we went after the rural press. We contacted 
+        journalists from small towns and villages and asked them if they can spread the word. After this, we started gaining traction. We were getting about 2000 - 4000 downloads in a day.
+        Now that we had the data that we needed, we wanted to grow. When it came to growth, we tried a lot of strategies - blogging, student referrals, Social media groups, etc. But nothing gave us the traction like PR.
+        On analyzing deeper, we noticed something unique about the viewership. It dawned to us that our users were using our app to gain General Knowledge. This opened a lot of verticals for us. Until then, the app was primarily a news channel. This opened the horizons for a lot of 
+        categories such as motivation, self-help, etc.
+        <br><br>Now that we had cracked the market, we needed creators. It was difficult to get creators because our user base was still less. And, we couldn't acquire users because we did not have enough content.
+        At this point, we started looking out for pod-casters. We noticed that a lot of the creators were posting content on Youtube with a static image because there was no platform for audio.
+        <br><br>We identified the top 20 creators and suggested that they publish content on another platform such as Khrabi in addition to Youtube. Some of them agreed and along with these creators came their user base.
+        Pulkit Sharma and Aankit Roy.
+
+
+
         `
     },
     {
