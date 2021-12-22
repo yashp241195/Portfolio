@@ -842,24 +842,98 @@ var allTutorials = [
         Title:"Machine Learning , Movie Recommendation",
         tags:"#machinelearning #python #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Movie Recommendation</h4>
+        <p>
+        Machine Learning concepts to quick movie recommendation system (Netflix) web application, 
+        made in order to teach my teammates how to implement ML/AI algorithms on web. 
+        UI Designing : Figma, Frontend: Javascript (pure), backend: Python Flask, 
+        Documentation: Swagger, ML/AI Algorithms for movie recommendations : Cosine Similarity (Content based filtering) implemented via scikit, numpy, pandas. 
+        Downloaded 5000 movies poster's images urls into csv file automatically via Selenium Py web crawler.
+        </p>
+        <div style="margin-left:-50px">
+        <img src="data/images/ml/projects06.jpeg" height="500" width="650"/>
+        </div>
+        <img src="data/images/ml/ml2.jpg" height="250" width="250"/>
+        <img src="data/images/ml/ml3.jpg" height="250" width="250"/>
+        <img src="data/images/ml/ml4.jpg" height="600" width="550"/>
+        <div style="margin-left:10px">
+        <img src="data/images/ml/ml5.jpg" height="550" width="510"/>
+        </div>
+        <div style="margin-left:10px">
+        <img src="data/images/ml/ml7.jpg" height="550" width="510"/>
+        </div>
+        <div style="margin-left:10px">
+        <h4>Collecting movie data from Google with SeleniumPy</h4>
+        <img src="data/images/ml/ml6.jpg" height="550" width="510"/>
+        </div>
+
         `
     },
     {
         Title:"Blockchain , Simple Bank",
         tags:"#blockchain #solidity #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Blockchain Bank</h4>
+        <p>
+        Concept to blockchain driven banking system, made in order to teach my teammates how to implement smart contracts and cryptocurrencies via blockchain, Frontend: jQuery, web3js library (interfacing between UI and smart contracts). Meta-mask Wallet for user transactions on blockchain. Backend: Smart Contracts Programming in Solidity, Blockchain deployed on RinkybyTest Network.
+        </p>
+        <div style="margin-left:-50px">
+        <img src="data/images/bl/projects07.jpeg" height="500" width="700"/>
+        </div>
+        <div style="margin-left:40px">
+        <img src="data/images/bl/bl2.png" height="200" width="400"/>
+        </div>
+        <div style="margin-left:40px">
+        <img src="data/images/bl/bl3.jpg" height="500" width="500"/>
+        </div>
+        <div style="margin-left:40px">
+        <img src="data/images/bl/bl4.jpg" height="500" width="500"/>
+        </div>
+        <div style="margin-left:40px">
+        <img src="data/images/bl/bl5.jpg" height="500" width="500"/>
+        </div>
+        <div style="margin-left:40px">
+        <img src="data/images/bl/bl6.jpg" height="500" width="500"/>
+        </div>
         `
     },
     {
-        Title:"Instagram Marketing automation with SeleniumPy",
+        Title:"Instagram Marketing automation with Selenium Py",
         tags:"#marketing #python #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h3>Instagram Marketing automation with Selenium Py</h3>
+        <p>
+        Instagram bots using Selenium Py (web crawling) beautifulSoup Py(web scraping) made to manage insta, 3 bots majorly
+        <br>1. unfollow who don't follow back 
+        <br>2. auto insta story viewer 
+        <br>3. auto like all posts on homepage        
+        </p>
+        <div>
+        <img src="data/images/ig/ig1.jpg" height="500" width="500"/>
+        </div>
+        <div>
+        <h3>Unfollow who don't follow back</h3>
+        <video controls="controls" height="500" width="500" src="data/images/ig/ig2.mp4">
+            Your browser does not support the HTML5 Video element.
+        </video>
+        </div>
+        <div>
+        <img src="data/images/ig/ig3.jpg" height="500" width="500"/>
+        </div>
+        <div>
+        <h3>Automatic Instagram stories Viewer</h3>
+        <video controls="controls" height="500" width="500" src="data/images/ig/ig4.mp4">
+        Your browser does not support the HTML5 Video element.
+        </video>        
+        </div>
+        <div>
+        <h3>Autolike Posts on homepage</h3>
+        <img src="data/images/ig/ig5.jpg" height="500" width="500"/>
+        <video controls="controls" height="500" width="500" src="data/images/ig/ig6.mp4">
+        Your browser does not support the HTML5 Video element.
+        </video> 
+        </div>
+
         `
     },
     {
