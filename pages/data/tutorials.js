@@ -636,8 +636,61 @@ var allTutorials = [
         Title:"How to pick the right database",
         tags:"#dbms #programming #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h3>Types of databases</h3>
+        <p>
+        <b>MySQL : </b> MySQL is a relational database, it is used
+        when we have data which can be stored in tabular format and 
+        we need to perform ACID transactions. Usually in banking
+        or financial apps where money is deducted from one account and
+        added to another as a single operation and revert entire process 
+        in case of failure so that there will be no data inconsistency. 
+        </p>
+        <p>
+        <b>MongoDB : </b> MongoDB is a document database used for faster
+        read and write operations and storing unstructured data. 
+        </p>
+        <p>
+        <b>Redis : </b> Redis Cache is a cache database used to store data 
+        in key value pair where we need to perform quick access to the data.
+        </p>
+        <p>
+        <b>Cassandra : </b> Cassandra is a database which store data in key value 
+        pair where we need to store huge amount of data. It is usually act as a
+        backup storage or some database where we need to write huge amount of data. 
+        </p>
+        <p>
+        <b>CDN : </b> A content delivery network (CDN) is a group of geographically 
+        distributed servers that speed up the delivery of web content by bringing it 
+        closer to where users are. 
+        </p>
+        <p>
+        <b>AmazonS3 : </b> Amazon S3 or Amazon Simple Storage Service is a service offered 
+        by Amazon Web Services that provides object storage through a web service interface.
+        It is used to store media objects like photos, videos and other objects.
+        </p>
+        <p>
+        <b>Hadoop : </b> Apache Hadoop is an open source framework that is used to efficiently 
+        store and process large datasets ranging in size from gigabytes to petabytes of data. 
+        Instead of using one large computer to store and process the data, Hadoop allows clustering 
+        multiple computers to analyze massive datasets in parallel more quickly.
+        </p>
+        <p>
+        <b>Apache Kafka : </b> Apache Kafka is a distributed publish-subscribe messaging system and a 
+        robust queue that can handle a high volume of data and enables you to pass messages from one 
+        end-point to another. Kafka is suitable for both offline and online message consumption. 
+        Kafka messages are persisted on the disk and replicated within the cluster to prevent data loss. 
+        Kafka is built on top of the ZooKeeper synchronization service. It integrates very well with Apache Storm 
+        and Spark for real-time streaming data analysis
+        </p>
+        <p>
+        <b>Apache Spark : </b> Apache Spark is an open-source, distributed processing system used for big data workloads. ... 
+        It provides development APIs in Java, Scala, Python and R, and supports code reuse across multiple workloads batch 
+        processing, interactive queries, real-time analytics, machine learning, and graph processing.
+        </p>
+        <p>
+        <b>Neo4J : </b> Neo4j is a graph database management system helpful to store and process relationships more conviniently
+        </p>
+
         `
     },
     {
@@ -721,8 +774,30 @@ var allTutorials = [
         Title:"MERN Stack Web Dev for Book app ( GraphQL API )",
         tags:"#mern #graphql #web #dbms #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>MERN Stack Web Dev for Book app ( GraphQL API )</h4>
+        <img src="data/images/mern/mern7.jpeg" height="500" width="800"/>
+        <br>
+        <h3>Lectures:</h3>
+        <p>
+        The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>   
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>GraphQL(React+Express)</td><td>Web</td><td><a target="_blank" href="https://www.youtube.com/watch?v=ed8SzALpx1Q">express-react-graphql</a></td></tr>
+        </table>
+
+
+
         `
     },
     {
@@ -940,16 +1015,75 @@ var allTutorials = [
         Title:"Devhelp linux helper tool for faster software development",
         tags:"#linux #programming #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Devhelp linux based notemaking helper tool for faster software development</h4>
+        <p>
+        Devhelp is a command line linux based notemaking helper tool to help with the code, 
+        I kept forgetting syntax and process and everything while creating the basic app in
+        express.js and react.js and git commands so this is a very simple tool helps you remember
+        everything
+        </p>
+        <img src="data/images/others/devhelp.jpg" height="500" width="800"/>
+        <br>
+        <h4>How to Install</h4>
+        <br>Install guide ..
+        <br>create the file in
+        <br>$ sudo gedit /usr/bin/devhelp
+        <br> add the below code to the "devhelp" file, basically add the path to devhelp folder
+        <br> /home/yash/Desktop/myapps/devhelp/devhelp.sh $1 $2
+        <br> save the file
+        <br> $ sudo chmod +x /usr/bin/devhelp
+        <br> done !!
+        <br> Now run the devhelp from anywhere
+        <br>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <br>
+        <h4>Devhelp Download</h4>
+        <br>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>App Name</th><th>Download URL</th></tr>
+        <tr><td>Devhelp</td><td><a target="_blank" href="https://github.com/yashp241195/devhelp">devhelp-download</a></td></tr>
+        </table>
+
+
         `
     },
     {
         Title:"UI Design with Figma , Pinterest Example",
         tags:"#ui #ux #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>UI Design with Figma , Pinterest Example</h4>
+        <div style="margin-left:-30px;">
+        <img src="data/images/others/projects02.jpeg" height="450" width="600"/>
+        </div>
+        <br> 
+        <h3>Lectures:</h3>
+        <p>The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>  
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Design Crash Course</td><td>UI UX</td><td><a target="_blank" href="https://www.youtube.com/playlist?list=PLDtHAiqIa4wa5MBbE_XDoqY51sAkQnkjt">uiux-abnux</a></td></tr>
+        <tr><td>Evolution of Web Design</td><td>UI UX</td><td><a target="_blank" href="https://www.youtube.com/watch?v=XYTwYmOjqQs">web-design</a></td></tr>
+        </table>
+        	
+
         `
     },
     {
@@ -1133,8 +1267,10 @@ var allTutorials = [
         Title:"Entrepreneur Growth Cycle and Business Development Strategy",
         tags:"#business #businessgrowth #tutorial #project",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Business Development Strategy</h4>
+        <div style="margin-left:-30px;">
+        <img src="data/images/others/projects01.jpeg" height="450" width="600"/>
+        </div>
         `
     },
     {
