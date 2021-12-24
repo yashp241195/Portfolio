@@ -19,16 +19,17 @@
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
         $("nav").click(function(){ $("#page").html('<embed type="text/html" width="650" height="540" src="'+$(this).attr("src")+'">') })
+        
     });
 
     </script>
     <style>
-        #page{height: 540px; width: 530px; }
-        #navigation{ height: 540px; width: 250px;}
+        #page{height: 540px; width: 500px; }
+        #navigation{ height: 540px; width: 200px;}
     </style>
 </head>
 <body style='overflow:hidden'>
-    <div style="display: flex; width: 735px;" id="main">
+    <div style="display: flex; width: 720px;" id="main">
         <div id="navigation"></div>
         <div id="page"></div>
     </div>

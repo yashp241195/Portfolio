@@ -22,7 +22,7 @@
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
         $("nav").click(function(){ $("#page").html('<embed type="text/html" width="750" height="550" src="'+$(this).attr("src")+'">') })
-        $("#page").html('<embed type="text/html" width="750" height="550" src="pages/outline.html">') 
+        $("#page").html('<embed type="text/html" width="750" height="550" src="pages/projects.html">') 
     
     });
 
