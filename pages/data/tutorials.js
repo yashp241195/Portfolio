@@ -1992,23 +1992,67 @@ var allTutorials = [
         tags:"#business #leadership #mentorship #businessgrowth #tutorial",
         Blog:`
         <h4>Mentorship</h4>
-        <p>this is database</p>
+        <p>
+        The most important point is <b>you can't mentor everyone.</b>. If your mentee 
+        are't comfortable to open up then no matter what you do for them you won't be 
+        able to bring change in their life because they will not tell you their real problems.
+        <br>
+        It is impossible to find the right solution without understand the complete problem statement.
+        </p>
         <h4>Leadership</h4>
-        <p>this is database</p>
-
+        <p>
+        Your ability to take ownership will determine your ability to lead, you
+        are supposed to set the example for every change you wish to see in them.
+        </p>
+        <br>
+        <b>How to become better leader and a mentor</b>
+        <br>
+        <br>(i) Talk to as many people with different backgrounds possible in order to gain 
+        perspective. Know about their upbringing, aspirations and desires and thought process behind.
+        <br>(ii) Read autobiographies of leaders who changed our world.
+        <br>(iii) Study Psychology, human behaviour and mind related books and observe.
+        <br>(iv) Study Social Science and history in order to gain better understanding about the culture.
         `
     },
     {
-        Title:"Sales , Communication ( LIACP ) and importance of personal growth",
+        Title:"Sales , Communication Skills ( LIACP ) and myth of introversion",
         tags:"#business #sales #businessgrowth #personalgrowth #tutorial",
         Blog:`
-        <h4>Communication Skills</h4>
-        <p>this is database</p>
+        <h4>Communication skills, LIACP and Sales</h4>
+        <p>
+        Communications skills is all about your ability to communicate.
+        In communication there are two parties involved one who listen 
+        and one who speak. When you speak or communicate you must need
+        to consider the ability of the listener as well. You can't use
+        same example to communicate your message to child which you used 
+        for adult. Similarly, you can't use same example for people who 
+        belong to different backgrounds as well. Communicatin skills is key
+        of "one to one" relationship. Sales is a process or persuasion but
+        it only work if you understand the needs of customers properly.    
+        </p>
         <br>
-        <b>Myth of introversion</b>
+        <b>L.I.A.C.P.</b>
+        <p>
+        <br><b>L : Listen</b>, Listen to other person if they don't open up try to 
+        ask something which allow you to listen.
+        <br><b>I : Interest</b>, Show your interest in the things they were telling you.
+        <br><b>A : Acknowledge</b> Acknowledge that you understood what they said.
+        <br><b>C : Confirm</b> Confirm what they said and what you understood are the same
+        <br><b>P : Proceed</b> Proceed the conversation in iteration of these first 4 steps
+        </p>
         <br>
-        <h4>LIACP</h4>
-        <p>this is database</p>
+        <b>Myth of interoversion</b>
+        <br><br>
+        <div>
+        Most people who don't have knowledge about things and doesn't got enough exposure label
+        themselves as an introvert but they talk a lot infront of their bestfriends or family 
+        members. If someone is really introvert that person might not talk a lot even with their
+        best friend or family members. Remember, <b>interovert is not someone who can't communicate</b> 
+        </div>
+        <br>
+        Don't hide yourself behind introvert label, your real problem isn't introversion but your
+        poor communication skills and poor knowledge. 
+
         `
     },
 ]
