@@ -469,10 +469,7 @@ var allTutorials = [
         tags:"#oop #programming #python #tutorial",
         Blog:`
         <h4>SOLID Priciple in OOP</h4>
-        <p>
-        Functional programming is based on lambda calculus which helps
-        mathematicians to represent and operate computations more conviniently.
-        </p>
+        
         <pre>
 
         # S.O.L.I.D. principle in OOP
@@ -502,7 +499,8 @@ var allTutorials = [
         print(s1.area())
         print(s1.param())
         
-        # L : Liskov Substitution, derived class object can be substituted in place of base class object
+        # L : Liskov Substitution, derived class object 
+        $ can be substituted in place of base class object
         
         class Shape():
             def __init__(self):
@@ -636,7 +634,7 @@ var allTutorials = [
         Title:"How to pick the right database",
         tags:"#dbms #programming #tutorial",
         Blog:`
-        <h3>Types of databases</h3>
+        <h3>How to pick right database</h3>
         <p>
         <b>MySQL : </b> MySQL is a relational database, it is used
         when we have data which can be stored in tabular format and 
@@ -795,6 +793,12 @@ var allTutorials = [
         <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
         <tr><td>GraphQL(React+Express)</td><td>Web</td><td><a target="_blank" href="https://www.youtube.com/watch?v=ed8SzALpx1Q">express-react-graphql</a></td></tr>
         </table>
+        <br>
+        <h3> Code for Bookapp </h3>  
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>BookApp(React,Express,Graphql)</td><td> <a target="_blank" href="https://github.com/yashp241195/GraphQLBookApp" >book-app-graphql</a> </td></tr>
+        </table>
 
 
 
@@ -844,8 +848,29 @@ var allTutorials = [
         <div style="margin-left:-30px;">
             <img src="data/images/hld/projects17.jpeg" height="500" width="640"/>
         </div>
-
-
+        <br> 
+        <h3>Lectures:</h3>
+        <p>The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>  
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Microservices Edureka</td><td>System Design</td><td><a target="_blank" href="https://www.youtube.com/watch?v=E3ByCRqE7Lo">microservice-edureka</a></td></tr>
+        <tr><td>Microservices Narendra</td><td>System Design</td><td><a target="_blank" href="https://www.youtube.com/watch?v=NgyKTKyN4BU&list=PLkQkbY7JNJuDqCFncFdTzGm6cRYCF-kZO&index=3">microservice-narendra</a></td></tr>
+        <tr><td>Microservices CodeKarle</td><td>System Design</td><td><a target="_blank" href="https://www.codekarle.com/">microservice-codekarle</a></td></tr>
+        <tr><td>Kafka Install</td><td>System Design</td><td><a  target="_blank" href="https://linuxhint.com/install-apache-kafka-ubuntu/">kafka-install</a></td></tr>
+        <tr><td>Kafka Tutorial</td><td>System Design</td><td><a  target="_blank" href="https://www.javatpoint.com/apache-kafka">Kafka-javatpoint</a></td></tr>
+        <tr><td>RabbitMQ Install</td><td>System Design</td><td><a  target="_blank" href="https://linuxhint.com/install-rabbitmq-ubuntu/">rabbitmq-install</a></td></tr>
+        </table>
         `
     },
     {
@@ -890,33 +915,415 @@ var allTutorials = [
         `
     },
     {
-        Title:"Git , Version Control System ( VCS ) ",
-        tags:"#git #deployment #programming #tutorial #project",
+        Title:"Git , Github, Version Control System ( VCS ) ",
+        tags:"#git #devops #deployment #programming #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Git and Github : Version Control System</h4>
+        <p> 
+        Git is a version control system that lets you manage and keep track of your source code history. 
+        GitHub is a cloud-based hosting service that lets you manage Git repositories.
+        If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+        </p>
+        <br>
+        <h4>Create and Upload git repository</h4>
+        <div style="margin-left:-70px;">
+        <pre>
+        // initialize the folder as git repository
+        $ git init
+        // add particular file to git 
+        $ git add file.txt
+        // add all files in the directory with
+        $ git add .
+        // ignore files for commit with .gitignore
+        // by mentioning things you wish to ignore
+        // inside .gitignore (for example in any node project)
+        // node_modules
+        // check which branch you are presently in
+        $ git branch --list
+        // commit to git current branch
+        $ git commit -m 'first commit'
+        // Create the branch
+        $ git branch mybranch
+        // Delete the branch 
+        $ git branch -d mybranch
+        // Switch to mybranch
+        $ git checkout mybranch
+        // merge branchA from branchB
+        $ git checkout branchA
+        // switched to branchA ..
+        $ git merge branchB
+        // branch B is merged into branch A 
+        </pre>
+        </div>
+        <h4>Pushing the code to github</h4>
+        <div style="margin-left:0px;">
+        <br>// add the remote url to origin variable (SSH)
+        <br>$ git remote add origin git@github.com:yashp241195/devhelp.git
+        <br>// if origin already exists you can remove origin and add new origin again
+        <br>$ git remote remove origin
+        <br>// create the SSH Keys pair for committing to github
+        <br>$ ssh-keygen -t ed25519 -C 'git@github.com:yashp241195/devhelp.git'
+        <br>// this will create two keys github (private) and github.pub (public) keys.
+        <br>// add key.pub data to github account key (private) into your local directory
+        <br>// from where you want to push the code to your github
+        <br>$  eval ssh-agent
+        <br>$  ssh-add /home/yash/Desktop/myapps/keys/github
+        <br><b>github</b>
+        <br>$ sudo env SSH_AUTH_SOCK="$SSH_AUTH_SOCK" ssh-add /home/yash/Desktop/myapps/keys/github
+        <br><b>gitlab</b> 
+        <br>$ sudo env SSH_AUTH_SOCK="$SSH_AUTH_SOCK" ssh-add /home/yash/Desktop/myapps/keys_gl/glkey
+        <br>// pushing the files into the main branch
+        <br>$ git push origin main
+        <br>
+        </div>
+        <br> 
+        <h3>Lectures:</h3>
+        <p>
+        The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>    
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Git basics mosh</td><td>Programming</td><td><a target="_blank" href="https://www.youtube.com/watch?v=8JJ101D3knE">git-basic-mosh</a></td></tr>
+        <tr><td>Git master freecodecamp</td><td>Programming</td><td><a target="_blank" href="https://www.youtube.com/watch?v=Uszj_k0DGsg">git-master-freecodecamp</a></td></tr>
+        </table>
         `
     },
     {
         Title:"Deployment , Virtual Machine vs Container ( Docker , Kubernetes )",
-        tags:"#deployment #programming #tutorial #project",
+        tags:"#deployment #devops #programming #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Deployment</h4>
+        <p>We can deploy our webapps via containers or virtual machines, 
+        <br><b>Virtual machine</b> : A VM is a virtualized instance of a computer 
+        that can perform almost all of the same functions as a computer, 
+        including running applications and operating systems. Virtual machines 
+        run on a physical machine and access computing resources from software 
+        called a hypervisor.
+        <br>
+        <b>Container</b> : Containers are a form of operating system virtualization. 
+        A single container might be used to run anything from a small microservice or 
+        software process to a larger application. Inside a container are all the 
+        necessary executables, binary code, libraries, and configuration files. 
+        </p>
+        <p>
+        Containers are much faster than Virtual Machines because they are lightweight.
+        Docker is a container technology and Docker Swarm is a container orchestration
+        technology which can manage multiple containers automatically. 
+        Kubernetes is also a container orchestration technology which provides auto 
+        scaling.<br>
+        Say, you hosted an ecommerce website as a microservice where each container act
+        as a component of microservice and you found on weekends there is huge traffic 
+        which means you need more scale on weekends then weekdays, on manual scaling we
+        need a tech team who take care of scale according to traffic and there will be lags
+        and ultimately huge wastage of resources whereas kubernetes provide auto scale.
+        Pokemon Go is the best example of this, they were expecting 5X traffic instead they
+        got 50X but kubernetes handle it really well or without any downtime, they were able 
+        to serve their customers, after that kubernetes become the benchmark in the industry.
+        </p>
+        <br>
+        <h4>Create and Upload docker container</h4>
+        <div style="overflox-x:scroll; margin-left:-70px;">
+        <pre>
+        // check if docker installed or not
+        $ docker version 
+        // run will get the image from docker-hub if not present locally 
+        $ docker run hello-world
+        // list all docker images available locally 
+        $ docker image --list
+        // -d - run the container in detached mode (in the background)
+        // -p 80:80 - map port 80 of the host to port 80 in the container
+        // docker/getting-started - the image to use
+        $ docker run -d -p 80:80 docker/getting-started
+        // see the running docker containers
+        $ docker ps
+        // stop the container
+        $ docker stop <the-container-id>
+        // remove the container
+        $ docker rm <the-container-id>
+        // Building the image from current directory
+        // .dockerignore will have all the files you wish not to include
+        node_modules
+        // inside Dockerfile
+        FROM node:16-alpine
+        WORKDIR /app
+        COPY package.json /app
+        RUN npm install -g nodemon
+        RUN npm install 
+        COPY . /app
+        CMD [ 'nodemon', 'index.js' ]
+        EXPOSE 8080
+        // build the image with tag myimage
+        $ docker build -t myimage .
+        </pre>
+        </div>
+        <h4>Create servers with docker-compose</h4>
+        <div style="overflox-x:scroll; margin-left:-70px;">
+        <pre>
+        version: '3'
+        services:
+        api-server:
+            build: .
+            image: api-server
+            ports:
+            - '5000:8080'
+            networks:
+            - mern-app
+            depends_on:
+            - mongo
+        mongo:
+            image: mongo:3.6.19-xenial
+            ports:
+            - "27017:27017"
+            networks:
+            - mern-app
+            volumes:
+            - mongo-data:/data/db
+        networks:
+        mern-app:
+            driver: bridge
+        volumes:
+        mongo-data:
+            driver: local
+        // start the containers with the above configurations
+        $ docker-compose up
+        // stop the containers started with docker-compose
+        $ docker-compose down
+        </pre>
+        </div>
+        <br>
+        <div style="margin-left:0px">
+        <h4>Deploy with Kubernetes (minikube)</h4>
+        <img src="data/images/others/kube.jpeg" height="350" width="550"/>
+        </div>
+        <div style="margin-left:-70px; overflox-x:scroll;">
+        <pre>
+        # DeployWithKubernetes
+        docker build container
+        $ docker build -t app-1-k8s:1 .
+        Deploy on kubernetes with minikube, minikube is a single node cluster made for
+        testing purpose, minikube requires virtualbox or hyperviser (virtual machine) as well to run on local system
+        check the minikube working or not by checking it's version
+        $ minikube version
+        start the cluster on local machine
+        $ minikube start 
+        check the status of nodes on kubernetes cluster with kubectl, a command line tool  
+        $ kubectl get nodes
+        To use docker images in kubernetes you need to run 
+        $ eval $(minikube docker-env)
+        Important note: You have to run eval $(minikube docker-env) on each terminal you want to use, since it only sets the environment variables for the current shell session.
+        apply the kubernetes configurations set in K8s/main.yaml to the cluster
+        $ kubectl apply -f K8s/main.yaml
+        open minikube dashboard in another window
+        $ minikube dashboard
+        run the 'express-test-service' by
+        $ kubectl get svc
+        NAME                   TYPE           CLUSTER-IP     EXTERNAL-IP    PORT(S)          AGE
+        express-test-service   LoadBalancer   10.104.31.77   10.104.31.77   6100:32415/TCP   7m3s
+        kubernetes             ClusterIP      10.96.0.1      < none >         443/TCP          44h
+        access the express app in your web browser with http://10.104.31.77:6100/
+        $ curl 10.104.31.77:6100
+        {'message':'Welcome : express-test-app-68469d95c7-h75h8 to app-1 '}
+        incase EXTERNAL-IP of express-test-service stay in pending state use the following commnd
+        because minikube doesn't provide the loadbalancer. To run the service you need loadbalancer
+        $ minikube tunnel
+
+
+        ### main.yaml
+        apiVersion: v1
+        kind: Service
+        metadata:
+        name: express-test-service
+        spec:
+        selector:
+            app: express-test-app
+        ports:
+        - protocol: \"TCP\"
+            port: 6100
+            targetPort: 3010
+        type: LoadBalancer
+        ---
+        apiVersion: apps/v1
+        kind: Deployment
+        metadata:
+        name: express-test-app
+        spec:
+        selector:
+            matchLabels:
+            app: express-test-app
+        replicas: 2
+        template:
+            metadata:
+            labels:
+                app: express-test-app
+            spec:
+            containers:
+            - name: express-test-app
+                image: app-1-k8s:1
+                imagePullPolicy: Never
+                ports:
+                - containerPort: 3010
+
+
+        ### Dockerfile
+        FROM node:16-alpine
+        WORKDIR /app
+        COPY package.json /app
+        RUN npm install -g nodemon
+        RUN npm install 
+        COPY . /app
+        CMD [ \"nodemon\", \"index.js\" ]
+        EXPOSE 3010
+
+
+        ### .dockerignore
+        node_modules
+
+        </pre>
+        </div>
+        <h3>Lectures:</h3>
+        <p>
+        The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>    
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Docker Full</td><td>Deploy</td><td><a target="_blank" href="https://www.youtube.com/watch?v=3c-iBn73dDE">docker-full</a></td></tr>
+        <tr><td>Kubernetes Full</td><td>Deploy</td><td><a target="_blank" href="https://www.youtube.com/watch?v=X48VuDVv0do">kubernetes-full</a></td></tr>
+        </table>
+        <h3> Code for Docker/Kubernetes </h3>  
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>Docker Compose Nodeapp deploy</td><td> <a target="_blank" href="https://github.com/yashp241195/DeployWithDockerCompose" >deploy-docker-compose</a> </td></tr>
+        <tr><td>Kubernetes Deploy</td><td> <a target="_blank" href="https://github.com/yashp241195/DeployWithKubernetes" >deploy-with-kubernetes</a> </td></tr>
+        </table>
+
+
         `
     },
     {
         Title:"DevOps , AWS , Terraform , Jenkins",
-        tags:"#devops #aws #deployment #programming #tutorial #project",
+        tags:"#devops #aws #deployment #programming #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Deploy EC2 on AWS with Terraform</h4>
+        <p>Terraform is an infrastructure as code (IaC) tool that allows you to build, change, and 
+        version infrastructure safely and efficiently. This includes low-level components such as 
+        compute instances, storage, and networking, as well as high-level components such as DNS entries, 
+        SaaS features, etc.
+        </p>
+        <div style="margin-left:-70px;">
+        <pre>
+        Deploy EC2 instance on AWS with terraform
+        $ terraform init
+        $ terraform plan -out=myplan
+        $ terraform apply
+        $ terraform destroy
+        
+        ### inside main.tf
+
+        /*
+        // static way, just for testing purpose, not recommended always use
+        // environment variables in order to avoid accidental security key leak
+        // on VCS like git  
+
+        provider "aws" {
+        region = "<region selected in aws account>"
+        access_key = "<access key from aws account>"
+        secret_key = "<secret access key from aws account>"
+        }
+        */
+
+        provider "aws" {}
+
+        /*
+        set the aws provider info with environment variables
+        export AWS_ACCESS_KEY_ID="<access key from aws account>"
+        export AWS_SECRET_ACCESS_KEY="<secret access key from aws account>"
+        export AWS_DEFAULT_REGION="<region selected in aws account>"
+        */
+
+        resource "aws_instance" "myfirstserver" {
+        ami = "ami-0c2d06d50ce30b442"
+        instance_type = "t2.micro"
+            tags = {
+                Name = "linux"
+            }
+        }
+
+        output "ec2create" {
+        value = << EOT
+            AWS terraform for ec2 instance creation :
+            
+            Name = $aws_instance.myfirstserver.tags.Name 
+            ami = $aws_instance.myfirstserver.ami 
+            
+            id = $aws_instance.myfirstserver.id 
+            public ip = $aws_instance.myfirstserver.public_ip 
+
+            EOT
+        }
+        </pre>
+        </div>
+        <br>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <h3> Code for AWS Terraform </h3>  
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>AWSTerraformEC2</td><td> <a target="_blank" href="https://github.com/yashp241195/AWSTerraformEC2" >AWSTerraformEC2</a> </td></tr>
+        </table>
+        <br>
+        <h3>Lectures:</h3>
+        <p>
+        The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>   
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Terraform Intro</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=l5k1ai_GBDE">terraform-intro</a></td></tr>
+        <tr><td>Terraform (AWS)</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=SLB_c_ayRMo&t=19s">terraform-aws</a></td></tr>
+        <tr><td>Jenkins Full</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=FX322RVNGj4">jenkins</a></td></tr>
+        <tr><td>AWS Cloud Full</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=dDN-t69sa3U">aws-great-learning</a></td></tr>
+        </table>
+
+
         `
     },
     {
         Title:"Machine Learning , Movie Recommendation",
         tags:"#machinelearning #python #programming #tutorial #project",
         Blog:`
+        <h4>Machine Learning</h4>
+        <p>
+        Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at 
+        predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to 
+        predict new output values.
+        </p>
         <h4>Movie Recommendation</h4>
         <p>
         Machine Learning concepts to quick movie recommendation system (Netflix) web application, 
@@ -941,6 +1348,35 @@ var allTutorials = [
         <h4>Collecting movie data from Google with SeleniumPy</h4>
         <img src="data/images/ml/ml6.jpg" height="550" width="510"/>
         </div>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <h3> Code for Machine Learning </h3>  
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>Movie Recommendation</td><td> <a target="_blank" href="https://github.com/yashp241195/movie_recommendation" >movie-recomm-ml</a> </td></tr>
+        <tr><td>Machine Learning-basics</td><td> <a target="_blank" href="https://github.com/yashp241195/MachineLearningTutorials" >ml-tutorials</a> </td></tr>
+        </table>
+        <br>
+        <h3>Lectures:</h3>
+        <p>
+        The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>   
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Machine Learning Tutorial</td><td>Machine Learning</td><td><a target="_blank" href="https://www.youtube.com/watch?v=OuPMVdski3E">ml-basics-greatlearning</a></td></tr>
+        <tr><td>RESTapi Python Flask</td><td>Web</td><td><a target="_blank" href="https://www.youtube.com/watch?v=s_ht4AKnWZg">flaskPy</a></td></tr>
+        <tr><td>Movie Recommendation Tutorial</td><td>Machine Learning</td><td><a target="_blank" href="https://www.youtube.com/watch?v=XoTwndOgXBM">ml-movie-recommendation</a></td></tr>
+        </table>
+
+
 
         `
     },
@@ -948,6 +1384,13 @@ var allTutorials = [
         Title:"Blockchain , Simple Bank",
         tags:"#blockchain #solidity #programming #tutorial #project",
         Blog:`
+        <h4>Blockchain</h4>
+        <p>
+        Blockchain is a system of recording information in a way that makes it difficult or impossible to change, 
+        hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated 
+        and distributed across the entire network of computer systems on the blockchain.
+        </p>
+        <br>
         <h4>Blockchain Bank</h4>
         <p>
         Concept to blockchain driven banking system, made in order to teach my teammates how to implement smart contracts and cryptocurrencies via blockchain, Frontend: jQuery, web3js library (interfacing between UI and smart contracts). Meta-mask Wallet for user transactions on blockchain. Backend: Smart Contracts Programming in Solidity, Blockchain deployed on RinkybyTest Network.
@@ -970,6 +1413,37 @@ var allTutorials = [
         <div style="margin-left:40px">
         <img src="data/images/bl/bl6.jpg" height="500" width="500"/>
         </div>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <h3> Code for Blockchain </h3>  
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>Blockchain Tutorial</td><td> <a target="_blank" href="https://github.com/yashp241195/blockchain_tutorial" >blockchain-tutorial</a> </td></tr>
+        <tr><td>Blockchain Bank</td><td> <a target="_blank" href="https://github.com/yashp241195/Simple-Bank-Blockchain" >blockchain-bank</a> </td></tr>
+        </table>
+        <br>
+        <h3>Lectures:</h3>
+        <p>
+        The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>   
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Solidity</td><td>Blockchain</td><td><a target="_blank" href="https://www.youtube.com/watch?v=ipwxYa-F1uY">solidity-dapp-university</a></td></tr>
+        <tr><td>Solidity(text tutorial)</td><td>Blockchain</td><td><a target="_blank" href="https://www.dappuniversity.com/articles/solidity">solidity-dapp-article</a></td></tr>
+        <tr><td>Web3JS</td><td>Blockchain</td><td><a target="_blank" href="https://www.youtube.com/watch?v=2TV0r94p8OY&list=PLbbtODcOYIoFs0PDlTdxpEsZiyDR2q9aA">web3JS</a></td></tr>
+        <tr><td>Blockchain-Full</td><td>Blockchain</td><td><a target="_blank" href="https://www.youtube.com/watch?v=UqQMSVfugFA&list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-">blockchain-full-telusko</a></td></tr>
+        </table>
+
+
+
         `
     },
     {
@@ -983,6 +1457,20 @@ var allTutorials = [
         <br>2. auto insta story viewer 
         <br>3. auto like all posts on homepage        
         </p>
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <h3> Code for InstaBot </h3>  
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Code Name</th><th> Code URL</th></tr>
+        <tr><td>Instagram Bots</td><td> <a target="_blank" href="https://github.com/yashp241195/InstagramSeleniumBot" >insta-bots</a> </td></tr>
+        </table>
+        <br><br>  
         <div>
         <img src="data/images/ig/ig1.jpg" height="500" width="500"/>
         </div>
@@ -1088,7 +1576,7 @@ var allTutorials = [
     },
     {
         Title:"Design Thinking , Product Design DSAEE + SSTCC methodology",
-        tags:"#productdesign #tutorial #project",
+        tags:"#productdesign #tutorial",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
@@ -1096,7 +1584,7 @@ var allTutorials = [
     },
     {
         Title:"Product Managment , Agile , Scrum board with Trello ( Jira )",
-        tags:"#productmanagement #tutorial #project",
+        tags:"#productmanagement #tutorial",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
@@ -1104,7 +1592,7 @@ var allTutorials = [
     },
     {
         Title:"Social Media Marketing",
-        tags:"#marketing #businessgrowth #tutorial #project",
+        tags:"#marketing #businessgrowth #tutorial",
         Blog:`
         <h3>Social Media Marketing Strategies</h3>
         <br>
@@ -1207,7 +1695,7 @@ var allTutorials = [
     },
     {
         Title:"App Marketing",
-        tags:"#marketing #businessgrowth #tutorial #project",
+        tags:"#marketing #businessgrowth #tutorial",
         Blog:`
         <h3>App Marketing</h3>
         <b>Stage I : Finding the similar app to the app you wish to develop so that you gain market share of that app, because people who would like to use your app or 
@@ -1265,7 +1753,7 @@ var allTutorials = [
     },
     {
         Title:"Entrepreneur Growth Cycle and Business Development Strategy",
-        tags:"#business #businessgrowth #tutorial #project",
+        tags:"#business #businessgrowth #tutorial",
         Blog:`
         <h4>Business Development Strategy</h4>
         <div style="margin-left:-30px;">
@@ -1275,7 +1763,7 @@ var allTutorials = [
     },
     {
         Title:"Startup Investment Fundamentals",
-        tags:"#business #businessgrowth #tutorial #project",
+        tags:"#business #businessgrowth #tutorial",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
@@ -1283,7 +1771,7 @@ var allTutorials = [
     },
     {
         Title:"Recruitment for startup",
-        tags:"#business #businessgrowth #recruitment #tutorial #project",
+        tags:"#business #businessgrowth #recruitment #tutorial",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
@@ -1291,7 +1779,7 @@ var allTutorials = [
     },
     {
         Title:"Mentorship , Parenting , Leadership and Training",
-        tags:"#business #leadership #mentorship #businessgrowth #tutorial #project",
+        tags:"#business #leadership #mentorship #businessgrowth #tutorial",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
@@ -1299,7 +1787,7 @@ var allTutorials = [
     },
     {
         Title:"Sales , Communication ( LIACP ) and importance of personal growth",
-        tags:"#business #sales #businessgrowth #personalgrowth #tutorial #project",
+        tags:"#business #sales #businessgrowth #personalgrowth #tutorial",
         Blog:`
         <h4>Types of databases</h4>
         <p>this is database</p>
