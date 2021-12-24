@@ -8,14 +8,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     const mypages = [
-        { name: "Helplink", src:"projects/helplink.html"},
-        { name: "Artistt", src:"projects/artistt.html"},
-        { name: "Datemee", src:"projects/datemee.html"},
-        { name: "Delhi Metro", src:"projects/delhimetro.html"},
+        { name: "helplink-app", src:"projects/helplink.html", img:"projects/data/image/ic_helplink.jpg"},
+        { name: "artistt-app", src:"projects/artistt.html", img:"projects/data/image/ic_art.jpg"},
+        { name: "datemee-app", src:"projects/datemee.html", img:"projects/data/image/ic_date.png"},
+        { name: "delhi-metro", src:"projects/delhimetro.html", img:"projects/data/image/ic_metro.png"},
     ]
 
-    const navWrap = (page) => "<li><nav src=\""+page.src+"\">"+"<a style=\"text-decoration:none; \" href=\"#\">"+page.name+"</nav></a></li>"
-    
+    const navWrap = (page) => "<div style=\"margin:10px; padding:5px; text-align: center; \"><div style=\"\" ><img src=\""+page.img+"\" width=\"40\" height=\"40\" /></div> \
+    <nav src=\""+page.src+"\">"+"<a style=\" font-size:10px; text-decoration:none; \" href=\"#\">"+page.name+"</a></nav>   </div>"
+
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
         $("nav").click(function(){ $("#page").html('<embed type="text/html" width="650" height="540" src="'+$(this).attr("src")+'">') })
