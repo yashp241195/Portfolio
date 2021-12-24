@@ -1819,37 +1819,195 @@ var allTutorials = [
         <div style="margin-left:-30px;">
         <img src="data/images/others/projects01.jpeg" height="450" width="600"/>
         </div>
+        <p>
+        <br><b>Founder's Knowledge and wisdom</b> will determine the kind of idea
+        they bring the in market. their wisdom and knowledge will determine the 
+        <b>ideation strategy</b> like "what kind of idea should be pursued at what stage with what kind
+        of available resources". Idea determine the <b>recruitment strategy</b> like
+        you can't hire a lots of talented people if your business idea isn't scalable
+        or require that expertise, you can't hire a student from IIM or business school
+        if you are opening a local coffee shop or anything like that, when your coffee shop
+        scale or made it's expansion maybe then we will going to need that person for making
+        strategies but that person is irrelevant for your current stage. Your recruitment strategy
+        will determine the kind of training people need or <b>training strategies</b>.
+        Your training strategy will determine the development strategy of product or service like
+        what kind of product or service you can build with current resources in order to survive 
+        and produce <b>profits</b> in the business. Then last part is <b>leadership and culture</b>,
+        leadership and culture determine the long term efficiency and scalability of the business.
+        </p>
+        <h4>Entrepreneur Growth Cycle</h4>
+        <div>
+        Every business is a service business, products are used to boost the services in order to
+        generate more profits. So, we are talking about entrepreneur growth cycle in context of 
+        service business. 
+        <br><b>Groping</b> : 
+        <br>Q. How to generate revenue ? 
+        <br>Q. How to find work ? 
+        <br> Ability to find work and revenue generation depends upon the geo-political situation of the 
+        your country. The "ease of doing business" is really a big issue if you are starting out as an 
+        individual. Business is a team work so, if geo political situation is bad then only thing which 
+        can help you out is your relationship building abilities because in early stage you don't need
+        talented people or you need to create some genius level of product or service. You need mediocre 
+        stuff. You can become sales person, retailer or service provider at this level because building 
+        product/service business requires expertise, capital and education which is preferrable if you 
+        are a researcher, inventor or a specialist who can get the funding.
+        <br><b>Early Success</b> : 
+        <br>Q. What is the better way to do busines? 
+        <br>Q. Where to find trustworthy people ?
+        You need to find better way to do the business in order to produce more profit either by using some
+        product or service of other companies. If you are a product company then you will start from this stage,
+        groping stage will be done by product validation as product is created in order to provide better way to 
+        do business. You need trustworthy people whom you can trust because daily business operations till now 
+        doesn't require very much business expertise. Incapability to find trustworthy people is definite way for long 
+        term business failure because you need people who prevent the failure of business at every single stage. 
+        <br><b>Growth Acceleration</b> : 
+        <br>Q. How to find talented people who can take responsibilities?
+        You need to find the talented people who can help you accelarate your business 
+        growth. Trustworthy people aren't sufficient enough for growth phase but without trustworthy, talented 
+        people doesn't matter much. Career is a transition, you need a way to help them grow if you really want
+        them to stick around.  
+        <br><b>Reorientation</b> : 
+        <br>Q. How to build standard business processes?
+        You need to build the standard protocols, systems and processes for everything in 
+        business so that you can measure the business in excel sheets and do analysis. Without trustworthy and 
+        talented people your systems and processes won't work because systems, processes are always designed in
+        consideration of the people. 
+        <br><b>Corporatization</b> : 
+        <br> How to build a brand image ?
+        You need to build the brand image of your organization so that people would like 
+        to invest in you, bank will lend you loans easily and talented people also show their interest to join you. 
+        <br><b>Liberation</b> : 
+        Q. Who will become the successor for my business?
+        You need a way to figure out the process of selection of your successor who can take your business to next level.
+        <br><br>
+        <b>
+        Each stage has different resources and different challenges, 
+        major problem occur if you try to focus on different problem
+        at the different business growth phase like you can't work heavily 
+        on systems and processes if your business requirements aren't very clear.
+        </b>
+        </div>
+        <br>
+        <h3>Lectures:</h3>
+        <p>The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>  
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Entrepreneur Growth Cycle</td><td>Business</td><td><a target="_blank" href="https://www.youtube.com/watch?v=3evLs2-7IHo">entrepreneur-growth-cycle</a></td></tr>
+        </table>
         `
     },
     {
         Title:"Startup Investment Fundamentals",
         tags:"#business #businessgrowth #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Startup Investment Fundamentals</h4>
+        <p>
+        Lets do some startup investor mathematics for 5 years of return on investment,
+        <div style="margin-left:-70px">
+        <pre>
+        >>> 1.1**5 # Get the amount from bank of FD
+        1.6105100000000006
+        >>> 1.2**5 - # Get the amount from mutual funds
+        2.4883199999999994
+        >>> 1.3**5 - # Get the amount from Stock market
+        3.7129300000000005
+        >>> 1.4**5 - # Minimum amount of return an investor want
+        5.378239999999998
+        >>> 1.5**5 - # Average amount of return an investor want
+        7.59375
+        >>> 1.6**5 - # Maximum tangible amount of return an investor can ask
+        10.485760000000003
+        </pre>
+        </div>
+        <p>
+        If your idea is not scalable or solving some really bigger issue nobody will going to help you or invest their money on you.
+        What problem are you solving as an entrepreneur ? Do you have the matrix to justify the investment you wish to raise ?
+        <br>
+        PS. Problem means what people consider as a problem, not actual problems of people.
+        </p>
+        </p>
+        <br>
+        <h3>Lectures:</h3>
+        <p>The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>  
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Startup School YC - 2020</td><td>Business</td><td><a target="_blank" href="https://www.youtube.com/playlist?list=PLQ-uHSnFig5PjfCy7mE77XMGhgky9HV3o">startup-yc</a></td></tr>
+        </table>
         `
     },
     {
         Title:"Recruitment for startup",
         tags:"#business #businessgrowth #recruitment #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Recruitment</h4>
+        <p>
+        There are 3 major factors to consider.
+        <br><br>(i) Character/Integrity : Is that person trustworthy/reliable.
+        <br>(ii) Learning Abilities : Is that person hold the ability to learn and think.
+        <br>(iii) Execution Abilities : Is that person ready to implement things.
+        <br><br>
+        Every person will come with different level of learning abilities, 
+        execution abilities and character. So, don't expect all characterstics in 
+        one person instead try to form a team which possess all 3.  
+        <br><br>
+        A person with integrity can hold entire together as a leader so 
+        it is always wise to give that person first preference in promotion then 
+        person with good learning abilities because requirements keeps changing and 
+        a person with good learning abilities or strong fundamentals can help 
+        you predict what kind of work you are supposed to do in order to produce profits 
+        and lastly the execution abilities because business need daily output.
+        <br><br>
+        Only wise can identify wise so it has a lot to do with you as an individual.
+        If you aren't talented you can't hire talented person easily. If you don't have
+        the integrity then you can't attract people with high integrity and if people
+        can't see you doing things then you can't motivate people to work hard.
+        <br><br>
+        </p>
         `
     },
     {
-        Title:"Mentorship , Parenting , Leadership and Training",
+        Title:"Mentorship and Leadership",
         tags:"#business #leadership #mentorship #businessgrowth #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
+        <h4>Mentorship</h4>
         <p>this is database</p>
+        <h4>Leadership</h4>
+        <p>this is database</p>
+
         `
     },
     {
         Title:"Sales , Communication ( LIACP ) and importance of personal growth",
         tags:"#business #sales #businessgrowth #personalgrowth #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
+        <h4>Communication Skills</h4>
+        <p>this is database</p>
+        <br>
+        <b>Myth of introversion</b>
+        <br>
+        <h4>LIACP</h4>
         <p>this is database</p>
         `
     },
