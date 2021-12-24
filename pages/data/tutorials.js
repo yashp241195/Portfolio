@@ -1988,12 +1988,12 @@ var allTutorials = [
         `
     },
     {
-        Title:"Mentorship and Leadership",
+        Title:"Mentorship and Leadership, Book Reading",
         tags:"#business #leadership #mentorship #businessgrowth #tutorial",
         Blog:`
         <h4>Mentorship</h4>
         <p>
-        The most important point is <b>you can't mentor everyone.</b>. If your mentee 
+        The most important point is <b>you can't mentor everyone.</b>. If your mentees 
         are't comfortable to open up then no matter what you do for them you won't be 
         able to bring change in their life because they will not tell you their real problems.
         <br>
@@ -2012,6 +2012,13 @@ var allTutorials = [
         <br>(ii) Read autobiographies of leaders who changed our world.
         <br>(iii) Study Psychology, human behaviour and mind related books and observe.
         <br>(iv) Study Social Science and history in order to gain better understanding about the culture.
+        <br><br>
+        <b>Book Reading</b>
+        <br><br>One book can help you gain the lifetime experience of a person. Often times people say readers are
+        the leaders but how does one can know whether book reading is benefitting them or not in real
+        <br>
+        If level of next 5 books is higher then previous 5 books you read then growth occur otherwise you are 
+        just reading words not experiencing and not improving as a person with the help of book
         `
     },
     {
