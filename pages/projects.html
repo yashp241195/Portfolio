@@ -19,6 +19,7 @@
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
         $("nav").click(function(){ $("#page").html('<embed type="text/html" width="650" height="540" src="'+$(this).attr("src")+'">') })
+        $("#page").html('<embed type="text/html" width="650" height="540" src="projects/delhimetro.html">')
         
     });
 
