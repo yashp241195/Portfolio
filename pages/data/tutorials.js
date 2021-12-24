@@ -1578,16 +1578,76 @@ var allTutorials = [
         Title:"Design Thinking , Product Design DSAEE + SSTCC methodology",
         tags:"#productdesign #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        <h4>Design Thinking</h4>
+        <p>
+        Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems 
+        and create innovative solutions to prototype and test. Involving five phases Empathize, Define, Ideate, Prototype and Test it is 
+        most useful to tackle problems that are ill-defined or unknown.
+        </p>
+        <div style="margin-left:0px;">
+        <img src="data/images/others/dt.jpeg" height="150" width="300"/>
+        </div>
+        <h4>DSAEE Iterative process for Product Design</h4>
+        <br><b>D : Define</b> : define the problem statement
+        <br><b>S : Search</b> : Search the existing solutions and check their efficiencies
+        <br><b>A : Alter</b> : Find the alternative way to provide the same value or same benefits to the customer
+        <br><b>E : Explore</b> : Explore all alternative ways to provide same value to customer
+        <br><b>E : Evaluate</b> : Evaluate all the ways and pick the best
+        <br>
+        Obviously, the entire problem wasn't solved yet just with one iteration so
+        define the problem statement as the best evaluated solution's limitations.
+        <br>
+        Re iterate - D.S.A.E.E. till you find your perfect solution.
+        <br>
+        <br>
+        <h4>SSTCC Features Selection</h4>
+        <p>With DSAEE you have found your problem statement. Now it's time to design
+        the product with SSTCC technique.
+        </p>
+        <br><b>S : Select</b> : Select the user of the product
+        <br><b>S : Suggest</b> : Suggest user various options to operate the product
+        <br><b>T : Transact</b> : Do the work or the trasaction with the product
+        <br><b>C : Cluster</b> : Cluster multiple features according to their functionalities
+        <br><b>C : Combine</b> : Combine all similar features.
+        <br><br>
+        This entire subject of Product Design and Design Thinking is case study based, you need 
+        to find resources which show practical use cases.
         `
     },
     {
         Title:"Product Managment , Agile , Scrum board with Trello ( Jira )",
         tags:"#productmanagement #tutorial",
         Blog:`
-        <h4>Types of databases</h4>
-        <p>this is database</p>
+        
+        <h4>Product Management</h4>
+        <p>
+        Product management is an organizational function that guides every step of a product's lifecycle from development to positioning 
+        and pricing by focusing on the product and its customers first and foremost.
+        </p>
+        <h4>Agile methodology</h4>
+        <p>
+        Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration 
+        with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, 
+        executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders.
+        </p>
+        <br> 
+        <h3>Lectures:</h3>
+        <p>The only intention of lectures is to let you know the topics
+        you are supposed to cover in order to gain the implementation abilities. 
+        Doing more create fatigue and less result in trouble during implementations
+        </p>  
+        <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:3px;
+            border-color: lightgray;
+          }
+        </style>
+        <table style="width:100%;border: 1px solid; ">
+        <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
+        <tr><td>Agile Full Course</td><td>Agile</td><td><a target="_blank" href="https://www.youtube.com/playlist?list=PLz-zP8qAkT_2yJGisxALe1DRWsUEcRXxI">agile-methodology</a></td></tr>
+        </table>
         `
     },
     {
