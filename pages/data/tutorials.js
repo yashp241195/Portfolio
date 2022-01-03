@@ -1647,6 +1647,8 @@ var allTutorials = [
         <table style="width:100%;border: 1px solid; ">
         <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
         <tr><td>Agile Full Course</td><td>Agile</td><td><a target="_blank" href="https://www.youtube.com/playlist?list=PLz-zP8qAkT_2yJGisxALe1DRWsUEcRXxI">agile-methodology</a></td></tr>
+        <tr><td>Product Management Basics</td><td>Product Management</td><td><a target="_blank" href="https://www.youtube.com/watch?v=poLzjLt2yqU">product-management-full-basics</a></td></tr>
+        <tr><td>Product Management - Shravan Tickoo</td><td>Product Management</td><td><a target="_blank" href="https://www.youtube.com/watch?v=IGJ5id-jty0&list=PLYS-T6kriqV5DQ7B5oX4nYvHAmP2pbMcv">product-management-shravan-tickoo</a></td></tr>
         </table>
         `
     },
