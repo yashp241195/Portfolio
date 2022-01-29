@@ -1615,8 +1615,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"Product Managment , Agile , Scrum board with Trello ( Jira )",
-        tags:"#productmanagement #tutorial",
+        Title:"Product Managment, MVP , Agile , Scrum board with Trello ( Jira )",
+        tags:"#productmanagement #tutorial #mvp",
         Blog:`
         
         <h4>Product Management</h4>
@@ -1624,12 +1624,27 @@ var allTutorials = [
         Product management is an organizational function that guides every step of a product's lifecycle from development to positioning 
         and pricing by focusing on the product and its customers first and foremost.
         </p>
+        <h4>MVP, Minimum Viable Product</h4>
+        <p>
+        A minimum viable product (MVP) is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development.
+        </p>
+        <div style="margin-left:0px;">
+        <img src="data/images/others/mvp.png" height="150" width="300"/>
+        </div>
+        <h4>Minimum Viable Product for dating app</h4>
+        <div style="margin-left:0px;">
+        <img src="data/images/others/date-mvp.jpg" height="350" width="500"/>
+        </div>
         <h4>Agile methodology</h4>
         <p>
         Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration 
         with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, 
         executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders.
         </p>
+        <h4>SCRUM Board with Jira</h4>
+        <div style="margin-left:0px;">
+        <img src="data/images/others/jira.png" height="350" width="600"/>
+        </div>
         <br> 
         <h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
