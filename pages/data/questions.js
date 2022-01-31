@@ -238,6 +238,29 @@ var allQuestions = [
 
         `
     },
+    {
+        Questions:"Q. Why we need time? What is time waste ? Why time management is priority management? Why we get distracted from our priorities ? What is Lao Tzu's opinion on this ?",
+        tags:"#timemanagement #laotzu #life",
+        Answers:`
+        We need time as we need to achieve some goal in the future, any amount of time not spent or prioritize towards achieving goal is the time waste. So, time management is basically priority management. 
+        The core desire of every human is "peace" and entire market tries to convince "if you buy ABC then you will get peace" and ultimately it result into change in priorities of person and time wastage. 
+        It rarely happens that we waste time thinking nothing, in fact thinking nothing is meditation which is the foundation of every form of human intelligence, it can't make anyone mentally unstable. Most 
+        products in the market can't be sold without distracting people from their priorities. People with "well defined priorities beat people with not well defined priorities" in the market place. Market can't
+        function properly if people become peaceful and it can't produce exponential growth in profits. Destruction of priorities of a common person is the foundation of each crime ever happened. It is said by 
+        Lao Tzu, a thief can't be created unless someone accumulate in excess similarly hyper productivity can't be needed if distraction is lower in society and work+wealth distribution is good.
+        `
+    },
+    {
+        Questions:"Q. Define the concept of God ? Why we need God ? What is state of enlightenment ?",
+        tags:"#god #desires #enlightenment #life",
+        Answers:`
+        Suppose if god exists and god doesn't care about you, will that be fine ? I mean to say if god doesn't care about your existence then you don't care about the god. We need god because god is useful for us.
+        It simply means "usefulness is more important than god". If we carefully analyze what most people pray "please god give me A.B.C. because I consider A.B.C. useful". The knowledge of A.B.C.'s usefulness comes 
+        before desire of A.B.C. If we actually understand ABC is not that much useful as promised then we will never get excited or depressed enough to take any wrong steps and it is the essence of whole religion not 
+        to desire stupidity. If we don't desire stupid things as an individual and society then we don't need to pray to god as well and ultimately everything will become more peaceful. Detachment from stupid desires is 
+        known as state of enlightenment which is the goal of human life where you stop overvaluing happiness and sadness and gain the ability to see things the way they are or ability to see the truth.
+        `
+    },
 
 ]
 
