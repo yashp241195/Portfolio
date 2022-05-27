@@ -1637,7 +1637,6 @@ var allTutorials = [
         <div style="margin-left:0px;">
         <img src="data/images/others/silly-mvp.png" height="500" width="500"/>
 	<br/>
-	url : <a href="https://sillyhumans.cyclic.app/sh.html" target="_blank" > click here </a>
         </div>
         <h4>Agile methodology</h4>
         <p>
