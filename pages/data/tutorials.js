@@ -780,6 +780,26 @@ var allTutorials = [
         <br> 2. If you want to build a web app with react, and you care about SEO, easier social media optimization and faster render for user you should think about SSR and framework like next.js
         <br> 3. If you building a SPA (single page application), and you dont want to configure everything on the server side like: i18n, router e.t.c. you should use create-react-app
         </p>
+	
+        <br/>
+        <h3>What is Progessive Web App (PWA) ?</h3>
+        <div>
+        <br/>A progressive web app (PWA) is a website that looks and behaves as if it is a mobile app. PWAs are built to take advantage of native mobile device features, without requiring the end user to visit an app store, make a purchase and download software locally. Instead, a PWA can be located with a search engine query and accessed immediately through a browser.
+        <br/><br/>PWAs eliminate the need for e-commerce merchants to develop native apps for multiple mobile operating systems. Just like YouTube videos, PWA content is downloaded progressively, which provides the end user with a better user experience than a traditional website that uses responsive design. The term “progressive web apps” was coined in 2015 by designer Frances Berriman and Google Chrome engineer, Alex Russell
+        <br/><br/>The goal of PWAs is to blur the distinction between native apps and the mobile web by bringing most of the benefits of native mobile apps to the mobile browser. PWAs use standards-based technologies and run in a Container that is secure and accessible to anyone on the web. They can send web push notifications, work offline and be accessible from the home screen, just like a mobile app from an app store.
+        </div>
+        <br/>
+        <div>
+        Pick PWA over Native mobile when you don't need to perform heavy computation and your app doesn't rely majorly on hardware. It is a bad choice for making a camera filter app as it requires camera hardware acceleration.  
+        </div>
+        <br/>
+        <h3>What is Trusted Web Activity (TWA) Android ? </h3>
+        <div>
+        <br/>A Trusted Web Activity (TWA) allows us to "package" a PWA-standard online service in a special container based on the Chrome web browser. To an average user, this package will act like a standard application. And TWAs can be published in the Google Play Store.
+        <br/><br/>From a technical standpoint, a TWA is a browser instance without its own graphic interface (URL bar and menu) which works in a verified mode (Trusted). It can connect solely to a specific domain to give the impression of browsing a full-fledged mobile application.
+        <br/><br/>In other words, an application that's based on a PWA page can be installed on a mobile device. If we decide to change the device, this installation (with the data used) can be re-created, as the TWA is linked to the user's Google account. Such an application has an icon, can work in full-screen mode, allows access to specialized device functions, and works offline. From the user's point of view, it's essentially a standard application.
+        </div>
+
         
 
 
