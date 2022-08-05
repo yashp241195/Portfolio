@@ -692,8 +692,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"MERN Stack Web Dev for Tourist app ( REST API ) , How to pick right React JS framework for frontend",
-        tags:"#mern #restapi #web #dbms #programming #tutorial #project",
+        Title:"MERN Stack Web Dev for Tourist app ( REST API ) , How to pick right React JS framework for frontend, What is Progressive Web App (PWA web app), Trusted Web Activity (TWA Android App)",
+        tags:"#mern #restapi #web #dbms #pwa #twa #programming #tutorial #project",
         Blog:`
         <h4>Tourist App (MERN Stack Application)</h4>
         <h4>Designing the App</h4>
@@ -1220,8 +1220,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"DevOps , AWS , Terraform , Jenkins",
-        tags:"#devops #aws #deployment #programming #tutorial",
+        Title:"DevOps , AWS , Terraform , Gitlab CI",
+        tags:"#devops #ci #aws #deployment #programming #tutorial",
         Blog:`
         <h4>Deploy EC2 on AWS with Terraform</h4>
         <p>Terraform is an infrastructure as code (IaC) tool that allows you to build, change, and 
