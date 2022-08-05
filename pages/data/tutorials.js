@@ -186,6 +186,24 @@ var allTutorials = [
         user~$ Hello World
         </pre>
         <br>
+	
+	<h4>How to pick right linux OS?</h4>
+        <div>
+        There are major 3 linux based distribution from where other distributions are derived.
+        </div>
+        <br/>
+        <ul>
+        <li>
+        Debian : (Ubuntu/Linux mint/Zorin etc) here we package manager is "apt". Really good for beginners and people who doesn't want to configure things much, for first time user and regular users. It is very stable. all software and packages are properly tested. but it is slower when you wish to do graphic intense tasks like gaming and all.
+        </li>
+        <li>
+        Arch: it is community based, software aren't well tested, unstable sometimes but very good for graphic intensive activities like gaming, designing, 3D modeling stuff and all.
+        </li>
+        <li>
+        Fedora : combination of above two like stable and faster, not faster as arch and neither the library is as wide as deb but it is best for one who do regular stuff and code on databases.
+        </li>
+        </ul>
+	
         <h3>Lectures:</h3>
         <p>
         The only intention of lectures is to let you know the topics
