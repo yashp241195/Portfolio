@@ -1301,6 +1301,12 @@ var allTutorials = [
         </pre>
         </div>
         <br>
+	<h4> Gitlab CI </h4>
+        <br/>
+        <div>
+        GitLab CI/CD is the part of GitLab that you use for all of the continuous methods (Continuous Integration, Delivery, and Deployment). With GitLab CI/CD, you can test, build, and publish your software with no third-party application or integration needed.
+        </div>
+        <img src="data/images/others/gl-ci.png" width="600" />
         <style>
         table, th, td {
             border: 1px solid black;
@@ -1325,7 +1331,7 @@ var allTutorials = [
         <tr><th>Topic</th><th>Category</th><th>URL</th></tr>
         <tr><td>Terraform Intro</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=l5k1ai_GBDE">terraform-intro</a></td></tr>
         <tr><td>Terraform (AWS)</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=SLB_c_ayRMo&t=19s">terraform-aws</a></td></tr>
-        <tr><td>Jenkins Full</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=FX322RVNGj4">jenkins</a></td></tr>
+        <tr><td>Gitlab CI</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/playlist?list=PL6iUkDSEH9SumTY7OSLmcMeFmRtQsQvNn">gitlab-ci</a></td></tr>
         <tr><td>AWS Cloud Full</td><td>DevOps</td><td><a target="_blank" href="https://www.youtube.com/watch?v=dDN-t69sa3U">aws-great-learning</a></td></tr>
         </table>
 
