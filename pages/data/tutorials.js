@@ -141,7 +141,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"linux command line , bash ",
+        Title:"linux command line , bash, how to pick right linux OS ",
         tags:"#linux #programming #tutorial",
         Blog:`
         <h4>Basic Linux Commands</h4>
