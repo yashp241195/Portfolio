@@ -8,14 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
     const mypages = [
-        { name: "helplink-app", src:"projects/helplink.html", img:"projects/data/image/ic_helplink.jpg"},
-        { name: "artistt-app", src:"projects/artistt.html", img:"projects/data/image/ic_art.jpg"},
-        { name: "datemee-app", src:"projects/datemee.html", img:"projects/data/image/ic_date.png"},
+        { name: "linkhelp-app", src:"projects/linkhelp.html", img:"projects/data/image/ic_helplink.jpg"},
+        { name: "workoso-app", src:"projects/workoso.html", img:"projects/data/image/ic_art.jpg"},
+        { name: "dateze-app", src:"projects/dateze.html", img:"projects/data/image/ic_date.png"},
         { name: "delhi-metro", src:"projects/delhimetro.html", img:"projects/data/image/ic_metro.png"},
     ]
 
     const navWrap = (page) => "<div style=\"margin:10px; padding:5px; text-align: center; \"><div style=\"\" ><img src=\""+page.img+"\" width=\"40\" height=\"40\" /></div> \
-    <nav src=\""+page.src+"\">"+"<a style=\" font-size:10px; text-decoration:none; \" href=\"#\">"+page.name+"</a></nav>   </div>"
+    <nav src=\""+page.src+"\">"+"<a style=\" font-size:12px; text-decoration:none; \" href=\"#\">"+page.name+"</a></nav>   </div>"
 
     $(document).ready(function(){
         $("#navigation").html('<ul>'+mypages.map(item=>navWrap(item)).reduce((result, item)=> result+item)+'</ul>')
