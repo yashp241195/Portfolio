@@ -642,10 +642,24 @@ var allTutorials = [
         <br>
         (iv) Practice coding problems upto a certain level till your brain 
         start giving auto suggestions. 
+        <br>
+        Do leetcode study plan questions, it has everything, it consists of 200-250 
+        Questions covering all concepts and with various difficulty level. 
+        <br><a target="_blank" href="https://leetcode.com/study-plan/data-structure/" >study-plan/data-structure</a>,
+        <br><a target="_blank" href="https://leetcode.com/study-plan/algorithm/" >study-plan/algorithm</a>,
         <br><br>
-        Don't think doing data structures and algorithms will solve all other problems 
+        Solving Data Structures and Algorithms proactively all the time (also known as Competitive Coding) is purely
+        a wastage of time in the era of open source, it is just that if a decent engineer take 1 hour to solve dsa question then 6* codeforce/codechef 
+        will do the same in 1/2 hour but opportunity for doing such thing occurs once a month for senior engineers and that 
+        person import such algorithms with open source libraries which is a good practice as these libraries are well tested and well documented 
+        and sometime copy it from google which makes speed in that skill useless. The main benefit of doing DSA is found while learning new concepts, 
+        especially in system design. 
+        <br><br>
+        It is just 20% part of the equation so 
+        don't think doing data structures and algorithms will solve all other problems 
         of software engineering and business due to which engineering job exists.
         <br><br>
+
         `
     },
     {
@@ -1656,6 +1670,28 @@ var allTutorials = [
         <br><br>
         This entire subject of Product Design and Design Thinking is case study based, you need 
         to find resources which show practical use cases.
+	<br>
+        <h4>Creation of a great product,</h4>
+        <p>(i) Marketing funnel and Product Design (UI/UX/Features etc.) : You need to know what kind of users are going to use your product and which is the best distribution channel for it's marketing.</p>
+        <p>main focus : Customers (Before Series A)</p>
+        <p>for software,</p>
+        <p>a. if user is non techie,</p>
+        <p> -> build B2C web/app and distribute it over playstore, website, social media.</p>
+        <p> -> Product design must be very simple and user must not be given many options to do things as too many options might confuse a normal user. </p>
+        <p>b. if user is techie but do analysis or operational work majorly -</p>
+        <p> -> build studio apps like VS Code, MS Office, AutoCAD, dashboard apps etc. B2B entreprise software must be made according to the operational need of companies belong to similar domain.</p>
+        <p> -> Product Design must be made in consideration of ability to get trained on software. </p>
+        <p>c. if user is techie,</p>
+        <p> -> build command line tools only say npm libraries or gaming, graphic engines etc and distribute it over the npm, linux package managers etc.</p>
+        <p> -> Product Design can go as complex as needed to get things done efficiently.</p>
+        <p>This is 50% of the work if you haven't done the above analysis properly then your whole engineering effort will go waste.</p>
+        <p> (ii) Product Development(Tech Stack) and Recruitment(organizational structure and career growth):</p>
+        <p>You need to know the most efficient product development strategies according to the scale of your product and you also need to figure out whether people who can build and sustain the product exists in the market or not 
+        and how hard it is for you to find and recruit those skilled people.</p>
+        <p>main focus : Employees (Post Series A investment)</p>
+        <p>In the software world, the rule of 1:10:100 is well accepted. It says that if the cost of fixing a defect in the requirement/design stage is 1, it will cost 10 during testing and 100 during user acceptance testing. 
+        The cost of bugs detected after launch can be enormous and sometimes fatal for the project/company. The same is true for every product design. </p>
+	
         `
     },
     {
@@ -2083,6 +2119,35 @@ var allTutorials = [
         <br>
         If level of next 5 books is higher then previous 5 books you read then growth occur otherwise you are 
         just reading words not experiencing and not improving as a person with the help of book
+	<br><br>
+        <b>MBA Programme</b>
+        <br/>
+        <p>There are two types of MBA (only do it from top B Schools, others doesn't worth much)</p>
+        <p>(i) General MBA</p>
+        <p>(ii) Specialized MBA</p>
+        <p>General: main goal is to develop your personality to handle stress and chaos. In institutes like IIM, Harvard etc the whole day is packed with classes, assignment, case studies, group discussions, daily exams of random subjects, presentation etc. This whole chaotic and high stress environment push individuals to set well defined priorities in life and figure out what is right for them up to a certain level.</p>
+        <p>Why General MBA?</p>
+        <p>If you aren't able to</p>
+        <p>-> manage your time properly.</p>
+        <p>-> set career priorities.</p>
+        <p>-> develop your personality.</p>
+        <p>-> get a job in Management Consulting or Investment Banking.</p>
+        <p>Why not General MBA?</p>
+        <p>-> If you are already good in some domain and have experience as manager.</p>
+        <p>-> If you are able to manage your time upto a good level and got experience of good companies already in your resume.</p>
+        <p>Specialized MBA :</p>
+        <p>main goal is to make person transition from one industry to another.</p>
+        <p>Especially made for people who already did management up to a certain level but wish to make transition from one career path to another or who wish to specialize in one domain. Specialize MBA always lag behind industry so things you will learn there won't be much useful.</p>
+        <p>Why Specialized MBA?</p>
+        <p>If you aren't able to</p>
+        <p>-> make transition to another domain and up skill yourself.</p>
+        <p>-> Very helpful for people transitioning from Govt sector to private sector (Especially Officers in military, bureaucracy, academia). Doing so give them exposure to international business.</p>
+        <p>Why not Specialized MBA?</p>
+        <p>-> if you are already getting a job and you have already explored the domain on your own up to a good level as MBA curriculum will always teach obsolete practices, it is good for someone who is new but not for someone who is already in the game.</p>
+        <p>b.t.w. Specialized MBA doesn't go waste because course structure overlap a lot with General MBA and it means it contains everything we do in General MBA along with Specialization so it doesn't go waste entirely.</p>
+        <p>It is all about knowing what is right for you if you found it without MBA then you don't need one.</p>
+        <p>It is more about development of ability for doing the work regardless of your mood because as a manager if you delay the work then entire department will slow down and potentially loose it's profit share from the market place. In worst cases manager's inefficiency can lead to shutting down entire business unit and massive layoffs. Loss in market share can lead to bankruptcy as well.</p>        
+
         `
     },
     {
