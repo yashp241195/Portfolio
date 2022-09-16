@@ -647,7 +647,9 @@ var allTutorials = [
         Questions covering all concepts and with various difficulty level. 
         <br><a target="_blank" href="https://leetcode.com/study-plan/data-structure/" >study-plan/data-structure</a>,
         <br><a target="_blank" href="https://leetcode.com/study-plan/algorithm/" >study-plan/algorithm</a>,
-        <br><br>
+        <br>OR<br>
+	<br><a target="_blank" href="https://www.interviewbit.com/courses/programming/" >interviewbit/programming</a>,
+	<br><br>
         Solving Data Structures and Algorithms proactively all the time (also known as Competitive Coding) is purely
         a wastage of time in the era of open source, it is just that if a decent engineer take 1 hour to solve dsa question then 6* codeforce/codechef 
         will do the same in 1/2 hour but opportunity for doing such thing occurs once a month for senior engineers and that 
