@@ -1693,7 +1693,11 @@ var allTutorials = [
         <p>main focus : Employees (Post Series A investment)</p>
         <p>In the software world, the rule of 1:10:100 is well accepted. It says that if the cost of fixing a defect in the requirement/design stage is 1, it will cost 10 during testing and 100 during user acceptance testing. 
         The cost of bugs detected after launch can be enormous and sometimes fatal for the project/company. The same is true for every product design. </p>
-	
+	<p>Every Giant Tech is a marketing machinery primarily and then everything else.</p>
+	<p>Marketing machinery : help layman discover most relevant options possible with least amount of inputs with the help of their platforms.</p>
+	<p>Google : Help people find most relevant information they &quot;search&quot;. Are Google search results really good enough to find domain specific information ? No. They help people &quot;redirect&quot; towards the most relevant.</p>
+	<p>Amazon Help people find most relevant product they &quot;search&quot;. Are Amazon results really good enough or help you make purchasing decision completely ? No. They help people &quot;redirect&quot; towards the most relevant.</p>
+	<p>The same is true for Facebook, Apple, Nike, Coke, Paypal etc. They all are marketing machinery primarily interested to pump as many possible relevant products belong to their marketing funnel.</p>
         `
     },
     {
