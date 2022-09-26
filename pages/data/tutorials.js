@@ -885,8 +885,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"Service oriented architecture , High Level Diagram for Amazon , Uber",
-        tags:"#soa #systemdesign #programming #tutorial #project",
+        Title:"Service oriented architecture, CAP Theorem, High Level Diagram for Amazon , Uber",
+        tags:"#soa #systemdesign #cap #programming #tutorial #project",
         Blog:`
         <h3>Service Oriented Architecture</h3>
         <p>
@@ -896,6 +896,17 @@ var allTutorials = [
         allows faster development, deployment, bug fixing and healing which is extremely important 
         for large scale applications as every second is the second of business transaction.
         </p>
+	<h3>CAP Theorem</h3>
+	<p>In theoretical computer science, the CAP theorem, also named Brewer's theorem after computer scientist Eric Brewer, states that any distributed data store can provide only two of the following three guarantees</p>
+	<p>Consistency</p>
+	<p>Every read receives the most recent write or an error.</p>
+	<p>Availability</p>
+	<p>Every request receives a (non-error) response, without the guarantee that it contains the most recent write.</p>
+	<p>Partition tolerance</p>
+	<p>The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes. When a network partition failure happens, it must be decided whether to</p>
+	<p>cancel the operation and thus decrease the availability but ensure consistency or to proceed with the operation and thus provide availability but risk inconsistency.</p>
+	<p>Thus, if there is a network partition, one has to choose between consistency and availability. Note that consistency as defined in the CAP theorem is quite different from the consistency guaranteed in ACID database transactions.</p>
+	<p>Eric Brewer argues that the often-used &quot;two out of three&quot; concept can be somewhat misleading because system designers need only to sacrifice consistency or availability in the presence of partitions.</p>
         <div style="margin-left:-30px;">
             <img src="data/images/hld/projects16.jpeg" height="500" width="640"/>
         </div>
