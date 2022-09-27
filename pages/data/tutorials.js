@@ -2074,10 +2074,9 @@ var allTutorials = [
 	<p>7. Team : Why you? What makes you and your team qualified for solving a particular problem.</p>
 	<p>8. Fund-raising plan and objectives : Mention in bullet points what will you do with the money you are asking for.</p>
 	<p>Now, You can ask for investments, make negotiations and close the deal. </p>
-	<br/>
 	Checkout more about pitch deck here : <a target="_blank" href="https://github.com/yashp241195/startup_pitch_deck">startup-pitch-deck</a>
-        <br/>
-	<img src="data/images/others/pitchweights.png" height="500" width="700"/>
+        <br/><br/>
+	<img src="data/images/others/pitchweights.png" height="300" width="500"/>
 	<br/>
 	<h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
