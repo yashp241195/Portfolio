@@ -2076,7 +2076,10 @@ var allTutorials = [
 	<p>Now, You can ask for investments, make negotiations and close the deal. </p>
 	<br/>
 	Checkout more about pitch deck here : <a target="_blank" href="https://github.com/yashp241195/startup_pitch_deck">startup-pitch-deck</a>
-        <h3>Lectures:</h3>
+        <br/>
+	<img src="data/images/others/pitchweights.png" height="500" width="700"/>
+	<br/>
+	<h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
         you are supposed to cover in order to gain the implementation abilities. 
         Doing more create fatigue and less result in trouble during implementations
