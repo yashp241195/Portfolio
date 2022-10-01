@@ -2074,7 +2074,7 @@ var allTutorials = [
 	<p>Bottom Up : used to show investors the new potential markets segments you can target with the help of current product/service you are building in future.</p>
 	<p>This is only relevant if you are in Series B/Series C (100 Mn USD Valuation) or above where you have the right strategy and right people at place and market starts trusting your credibility and execution abilities</p>
 	<br/>
-	<img src="data/images/others/TAM.png" height="450" width="550"/>
+	<img src="data/images/others/TAM.png" height="550" width="685"/>
 	<br/>
 	<p>6. Business Model : Mention exactly how you are planning to produce profits or mention your key revenue sources.</p>
 	<p>7. Team : Why you? What makes you and your team qualified for solving a particular problem.</p>
