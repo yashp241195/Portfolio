@@ -935,7 +935,8 @@ var allTutorials = [
         <tr><td>Kafka Install</td><td>System Design</td><td><a  target="_blank" href="https://linuxhint.com/install-apache-kafka-ubuntu/">kafka-install</a></td></tr>
         <tr><td>Kafka Tutorial</td><td>System Design</td><td><a  target="_blank" href="https://www.javatpoint.com/apache-kafka">Kafka-javatpoint</a></td></tr>
         <tr><td>RabbitMQ Install</td><td>System Design</td><td><a  target="_blank" href="https://linuxhint.com/install-rabbitmq-ubuntu/">rabbitmq-install</a></td></tr>
-        </table>
+        <tr><td>Kailash Nadh, CTO Zerodha</td><td>System Design(Theory vs Practical)</td><td><a  target="_blank" href="https://www.youtube.com/watch?v=Aawk_wg_VYY&ab_channel=SCALER">scaling-zerodha</a></td></tr>
+	</table>
         `
     },
     {
