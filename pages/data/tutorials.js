@@ -2070,12 +2070,19 @@ var allTutorials = [
 	<p>3. Your Solution/Product : Your solution and product must be able to solve all the major flaws you mentioned above.</p>
 	<p>4. Traction : Your current traction of product will convince investor about your execution abilities.</p>
 	<p>5. Market : Market size must be big enough and your product must be able to produce 10X or more profits in 5-10 years.</p>
+	<p>Top Down : used to show investors the current market segment your product can target and generate revenue</p>
+	<p>Bottom Up : used to show investors the new potential markets segments you can target with the help of current product/service you are building
+	in future. (This is only relevant if you are in Series B/Series C (100 Mn USD Valuation) or above where you have the right strategy and right people at place and market starts trusting your credibility and execution abilities)
+	<br/>
+	<img src="data/images/others/TAM.png" height="300" width="500"/>
+	<br/>
 	<p>6. Business Model : Mention exactly how you are planning to produce profits or mention your key revenue sources.</p>
 	<p>7. Team : Why you? What makes you and your team qualified for solving a particular problem.</p>
 	<p>8. Fund-raising plan and objectives : Mention in bullet points what will you do with the money you are asking for.</p>
 	<p>Now, You can ask for investments, make negotiations and close the deal. </p>
 	Checkout more about pitch deck here : <a target="_blank" href="https://github.com/yashp241195/startup_pitch_deck">startup-pitch-deck</a>
-        <br/><br/>
+        <br/>
+	<br/>
 	<img src="data/images/others/pitchweights.png" height="300" width="500"/>
 	<br/>
 	<h3>Lectures:</h3>
