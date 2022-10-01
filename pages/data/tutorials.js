@@ -1647,7 +1647,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Design Thinking , Product Design DSAEE + SSTCC methodology",
+        Title:"Design Thinking , Product Design DSAEE + SSTCC methodology, Big Tech are marketing Machinery, Steve Jobs on Starting with customer experience first and work backward towards technology",
         tags:"#productdesign #tutorial",
         Blog:`
         <h4>Design Thinking</h4>
@@ -1710,7 +1710,13 @@ var allTutorials = [
 	<p>Google : Help people find most relevant information they &quot;search&quot;. Are Google search results really good enough to find domain specific information ? No. They help people &quot;redirect&quot; towards the most relevant.</p>
 	<p>Amazon Help people find most relevant product they &quot;search&quot;. Are Amazon results really good enough or help you make purchasing decision completely ? No. They help people &quot;redirect&quot; towards the most relevant.</p>
 	<p>The same is true for Facebook, Apple, Nike, Coke, Paypal etc. They all are marketing machinery primarily interested to pump as many possible relevant products belong to their marketing funnel.</p>
-        `
+        <br/>
+	<p>Q. How To Build Tech Products Correctly.</p>
+	<p>Marketing Funnel -> Product Design -> Technology -> Recruitment.</p>
+	<p>Marketing Funnel determines the Product Design, Product Design determines the Technology and Technology determines the Recruitment. Going other ways never worked according to all past data in the history of Tech Business.</p>
+	<p>and Steve Jobs confirmed that with his statement.</p>
+	<p>I&rsquo;ve always found is that you&rsquo;ve got to start with the customer experience and work backwards for the technology. You can&rsquo;t start with the technology and try to figure out where you&rsquo;re going to try to sell it. And I made this mistake probably more than anybody else in this room. And I got the scar tissue to prove it. And I know that it&rsquo;s the case. And as we have tried to come up with a strategy and a vision for Apple, it started with &ldquo;What incredible benefits can we give to the customer? Where can we take the customer?&rdquo; Not starting with &ldquo;Let&rsquo;s sit down with the engineers and figure out what awesome technology we have and then how are we going to market that?&rdquo; And I think that&rsquo;s the right path to take.</p>
+	`
     },
     {
         Title:"Product Managment, MVP , Agile , Scrum board with Trello ( Jira )",
