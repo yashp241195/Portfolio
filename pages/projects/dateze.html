@@ -1,28 +1,44 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <div style="width: 500px; overflow: hidden; font-size: small;">
     <h2>Dateze</h2>
     <br />
     <div>
-    website : <a target="_blank" href="https://dateze.in">dateze.in</a>
+        website : <a target="_blank" href="https://dateze.in">dateze.in</a>
+    </div>
+    <div>
+        follow us on Instagram : <a target="_blank" href="https://www.instagram.com/dateze.in/">@dateze.in</a>
     </div>
     <br />
-    <p>With @dateze.app, we can improve the mutual benefit in the partnership,</p>
-    <p>To improve the benefit in partnership, we can help people find :</p>
-    <p>(i) People with higher understanding of self as the max limit of providing benefit to other is limited to understanding of self. : With The help of SQ Score (Understanding of self).</p>
-    <p>Self consists of : </p>
-    <div style="padding-left:20px;">
-     1. You :   
-     <br/>(a) body and senses  
-     <br/>(b) mind  (i) thoughts (ii) emotions 
-     <br/><br/>
-     2. Your relationship with others :   
-     <br/>(a) society
-    </div>      
-    <p>We can improve it's understanding regarding self by asking questions regarding self. There are more things which can be added but the target is make it beginner friendly. That's why these classification of self makes more sense.</p>
-    <p>(ii) People with better communication skills so that they can figure out the right way to provide benefit to the other. : With the help of Communication Score</p>
-    <p>We can improve the efficiency of providing benefit to other by properly communicating with other.</p>
-    <p>Communicating includes, </p>
-    <p>(i) listening (ii) understanding (iii) texting (writing) (iv) speaking</p>
-    <p>We can improve the probability of formation of better relationships in society by allowing people who knows &quot;how to communicate properly&quot; and people with &quot;better understanding of self&quot; find each other with the help of our @dateze.app.</p>
-    <p>To understand this better or how we came up to this point, please refer <b> CivilizationType1 </b> section</p>
+    <div id="showImages"></div>
+    <script>
 
+        function showImageWithIndex(index){
+            
+            let base ="data/image/dateze/"; 
+            let imagename= "000"+index+".jpg";
+            if(index==10){
+                imagename= "0010.jpg";
+            }
+            return '<img width="520" src="'+base+""+imagename+'" alt="p'+index+'" />'
+        }
+
+        function showImageList(){
+            
+            let imgList = "";
+
+            for(var i = 1;i <= 10; i++){
+                imgList += "<div>"+showImageWithIndex(i)+"</div>"
+            }
+            
+            return imgList
+        }
+
+        function showImagesHTML(){
+            return "<div>"+showImageList()+"</div>"
+        }
+
+        $(document).ready(function(){
+            $("#showImages").html("<br>"+showImagesHTML()+"<br>")
+        })
+    </script>
 </div>
