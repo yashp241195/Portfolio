@@ -1,16 +1,44 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <div style="width: 500px; overflow: hidden; font-size: small;">
     <h2>Workoso</h2>
     <br />
     <div>
-    website : <a target="_blank" href="https://workoso.in">workoso.in</a>
+        website : <a target="_blank" href="https://workoso.in">dateze.in</a>
+    </div>
+    <div>
+        follow us on Instagram : <a target="_blank" href="https://www.instagram.com/workoso.in/">@workoso.in</a>
     </div>
     <br />
-    <p>At @workoso.app, we can help people find work more easily and improve the ease of doing business  </p>
-    <p>1. People can find jobs, freelance works etc and understand the demands of particular services according to their geography.</p>
-    <p>2. People can connect with each other and get access to their work reviews in order to understand the credibility of a person.</p>
-    <p>3. We allow people to create their own services and collaborate with other people on their own terms and up to a particular period with the help of &quot;SERVICE ORIENTED&quot; architecture for work (every work should be done by a service.) which solves the issue of speed of team formation.</p>
-    <p>For example. A team of 2 people providing service A of good quality can collaborate with a team of 3 providing some complementary service B of good quality can work together as a Company Z and produce better results with the help of SERVICE ORIENTED architecture.</p>
-    <p>It will improve the infrastructure more efficiently as the speed of going from step 1-6 </p>
-    <p>To understand this better or how we came up to this point, please refer <b> CivilizationType1 </b> section</p>
+    <div id="showImages"></div>
+    <script>
 
+        function showImageWithIndex(index){
+            
+            let base ="data/image/dateze/"; 
+            let imagename= "000"+index+".jpg";
+            if(index==10){
+                imagename= "0010.jpg";
+            }
+            return '<img width="520" src="'+base+""+imagename+'" alt="p'+index+'" />'
+        }
+
+        function showImageList(){
+            
+            let imgList = "";
+
+            for(var i = 1;i <= 10; i++){
+                imgList += "<div>"+showImageWithIndex(i)+"</div>"
+            }
+            
+            return imgList
+        }
+
+        function showImagesHTML(){
+            return "<div>"+showImageList()+"</div>"
+        }
+
+        $(document).ready(function(){
+            $("#showImages").html("<br>"+showImagesHTML()+"<br>")
+        })
+    </script>
 </div>
