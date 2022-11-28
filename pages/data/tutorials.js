@@ -2097,10 +2097,17 @@ var allTutorials = [
 	<img src="data/images/others/pitchweights.png" height="300" width="500"/>
 	<br/>
 	<h4>Venture Capital Methematics and it's role in creation of startup ecosystem</h4>
+	<p>
+	This is the simplified version of data science research by Sabestian Quintero I shared below.
+	</p>
 	<br/>
-	<img src="data/images/others/vcmath.png" height="300" width="500"/>
+	<a target="_blank" href="https://medium.com/journal-of-empirical-entrepreneurship/making-sense-of-startup-valuations-with-data-science-1dededaf18bb">startup-valuations</a>
+	<a target="_blank" href="https://medium.com/journal-of-empirical-entrepreneurship/how-much-runway-should-you-target-between-financing-rounds-478b1616cfb5">startup-runway-avg-time</a>
+	<a target="_blank" href="https://medium.com/journal-of-empirical-entrepreneurship/dissecting-startup-failure-by-stage-34bb70354a36">startup-failure-rate</a>
 	<br/>
-	<img src="data/images/others/advise.png" height="300" width="500"/>
+	<img src="data/images/others/vcmath.png" height="380" width="580"/>
+	<br/>
+	<img src="data/images/others/advise.png" height="380" width="580"/>
 	<br/>
 	<h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
