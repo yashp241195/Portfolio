@@ -2036,8 +2036,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"Startup Investment Fundamentals",
-        tags:"#business #businessgrowth #tutorial",
+        Title:"Startup Investment Fundamentals, Venture Capital Methematics and it's role in creation of startup ecosystem",
+        tags:"#business #businessgrowth #startup #vc #angel #tutorial",
         Blog:`
         <h4>Startup Investment Fundamentals</h4>
         <p>
@@ -2096,6 +2096,12 @@ var allTutorials = [
 	<br/>
 	<img src="data/images/others/pitchweights.png" height="300" width="500"/>
 	<br/>
+	<h4>Venture Capital Methematics and it's role in creation of startup ecosystem</h4>
+	<br/>
+	<img src="data/images/others/vcmath.png" height="300" width="500"/>
+	<br/>
+	<img src="data/images/others/advise.png" height="300" width="500"/>
+	<br/>
 	<h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
         you are supposed to cover in order to gain the implementation abilities. 
@@ -2116,7 +2122,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Recruitment for startup",
+        Title:"Recruitment fundamentals",
         tags:"#business #businessgrowth #recruitment #tutorial",
         Blog:`
         <h4>Recruitment</h4>
