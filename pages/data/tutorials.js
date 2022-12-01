@@ -1940,8 +1940,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"Entrepreneur Growth Cycle and Business Development Strategy",
-        tags:"#business #businessgrowth #tutorial",
+        Title:"Entrepreneur Growth Cycle and Business Development Strategy, Corporate Success Strategy or Corporate 101",
+        tags:"#business #businessgrowth #corporatesuccess #tutorial",
         Blog:`
         <h4>Business Development Strategy</h4>
         <div style="margin-left:-30px;">
@@ -2015,7 +2015,20 @@ var allTutorials = [
         on systems and processes if your business requirements aren't very clear.
         </b>
         </div>
-        <br>
+        <div>
+	<h4>Corporate Success Strategy or Corporate 101</h4>
+	<div>
+	<p>Your degree, experience etc matter more than your skills and talent. Your image is more important than your work and you can't improve your image by good behavior instead you need degrees and experience from big corporations as it can be presented in the matrices and it can potentially improve the credibility of the company in the eyes of auditing firms and improve the stock price as well.</p>
+	<p>CXOs, VPs has no direct control over the policies, recruitment, firing etc in most cases (especially if company is listed in the stock market). They can't betray the process without approval of board. Everything has to be done with numbers in order to avoid all forms of &quot;legal&quot; conflicts.</p>
+	<p>65% managers has '0' or '-ve' impact over the company because of market uncertainty. If corporate starts moving fast or starts taking initiatives then it will go bankrupt as well.</p>
+	<p>If manager take initiatives, hire more people and did the resource allocation faster than the market demand and company face losses then manager will get fired and potentially lead to shut down of the projects and even massive layoffs of entire department in worse cases.</p>
+	<p>Sometimes, doing nothing or pretending is better.  Making initiatives or doing innovations are very dangerous in Corporate.</p>
+	<p>If you do something good and help company generate more profits then maybe you will get considered for promotion in best cases and all the profit might get transferred to some other department if board thinks that doing such thing will produce more profits.</p>
+	<p>Doing extra hard work makes no sense, it doesn't give you promotion or C.T.C. hike because company doesn't do &quot;high value&quot; work in all the departments.</p>
+	<p>It produces limited responsibilities and work life balance but it doesn't prevent you from getting fired due to mistakes of yourself or your leaders or markets slowdowns.</p>
+	</div>
+	</div>
+	<br>	
         <h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
         you are supposed to cover in order to gain the implementation abilities. 
