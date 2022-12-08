@@ -2121,6 +2121,7 @@ var allTutorials = [
 	<br/><br/>
 	<img src="data/images/others/advise.png" height="380" width="580"/>
 	<br/><br/>
+	<h4>Limitations of Pitch Deck in context of truly revolutionary ideas.</h4>
 	<p>Explaining any revolutionary or innovative idea is fairly difficult in 5 minutes because &quot;Understanding something isn't a very simple process like you tell something and other person will understand it easily&quot;.</p>
 	<p>All revolutionary ideas consists of 3-4 sub ideas and not necessarily the other person whom you are presenting your idea has knowledge and understanding of all 3-4 sub ideas which makes validation of ideas more difficult especially for normal investor who isn't very knowledgeable.</p>
 	<p>For example, explaining iPod was fairly difficult at the time of radio, because one need to understand the concept of internet, music streaming websites like iTunes, cloud storage etc. and making sense out of each requires more than 5 minutes or more according to reader's knowledge. It requires good imagination ability and knowledge of these sub domains in order to validate the correctness of ideas which most people don't have so as investors.</p>
