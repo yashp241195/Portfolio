@@ -636,7 +636,10 @@ var allTutorials = [
         and designed by an experienced professor as they design things in 
         consideration of human psychology instead of posting questions like a pile 
         of garbage just like we saw questions on coding websites. 
-        <br>
+        <br>Update : Youtuber named @striver (Raj Vikramaditya) has created really great content.
+	<br>Do checkout <a target="_blank" href="https://takeuforward.org/" >takeuforward.org</a>
+	<br><a target="_blank" href="https://www.youtube.com/@takeUforward" >Youtube@takeuforward</a>
+	<br>
         (iii) Try to solve the question with recursion you generally solve with 
         loops and solve questions with loops which you solve with recursion.
         <br>
