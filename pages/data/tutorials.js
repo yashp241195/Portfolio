@@ -1723,6 +1723,12 @@ var allTutorials = [
 	<p>The hardest thing is: how does that fit in to a cohesive, larger vision, that&rsquo;s going to allow you to sell 8 billion dollars, 10 billion dollars of product a year? And, one of the things I&rsquo;ve always found is that you&rsquo;ve got to start with the customer experience and work backwards for the technology. You can&rsquo;t start with the technology and try to figure out where you&rsquo;re going to try to sell it. And I made this mistake probably more than anybody else in this room. And I got the scar tissue to prove it. And I know that it&rsquo;s the case.</p>
 	<p>And as we have tried to come up with a strategy and a vision for Apple, it started with &ldquo;What incredible benefits can we give to the customer? Where can we take the customer?&rdquo; Not starting with &ldquo;Let&rsquo;s sit down with the engineers and figure out what awesome technology we have and then how are we going to market that?&rdquo; And I think that&rsquo;s the right path to take.</p>
 	<p>Apple embodies this philosophy throughout the customer lifecycle, including being exposed to the product, buying the product, implementing the product, upgrading the product, and getting help with the product. It is Apple&rsquo;s competitive advantage.</p>
+	<br/>
+	<p>Was watching Shark Tank US for past few days, the major mistake most people do is to think</p>
+	<p>&quot;A good product can solve all the problems&quot;</p>
+	<p>The reality is greatness of the product is really dependent upon the infrastructure/market we are operating into.</p>
+	<a href="https://youtu.be/nn-uMBLuTk0" target="_blank"> XTorch - Shark Tank </a>
+	<p>for the above example we can see a very useful solar powered torch created for Africa (where people don't have access to electricity to do basic things due to poor infrastructure) is really useless in US because people have access to electricity 24&times;7 and the price become too high in comparison to it's utility.</p>
 	`
     },
     {
