@@ -760,6 +760,9 @@ var allTutorials = [
         R : React JS : Frontend framework based on NodeJS<br>
         N : Node JS : Framework for web development <br>
         </p>
+	<p>
+	from Product design, start with front-end and try to get all the possible requests (GET POST PUT DELETE - RESTful or Queries Mutation Subscription - GraphQL) you need from the server then design the database Schema (Types-GraphQL, Mongoose Models etc).
+	</p>
         <table style="width:100%;border: 1px solid; ">
         <tr><th>Code Name</th><th> Code URL</th></tr>
         <tr><td>Tourist(frontend:NextJS(reactjs))</td><td> <a target="_blank" href="https://github.com/yashp241195/tourist-frontend" >tourist-frontend</a> </td></tr>
