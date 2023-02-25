@@ -1654,7 +1654,7 @@ var allTutorials = [
     },
     {
         Title:"Design Thinking , Product Design DSAEE + SSTCC methodology, Big Tech are marketing Machinery, Steve Jobs on Starting with customer experience first and work backward towards technology",
-        tags:"#productdesign #tutorial",
+        tags:"#productdesign #bigtech #tutorial",
         Blog:`
         <h4>Design Thinking</h4>
         <p>
@@ -2061,8 +2061,8 @@ var allTutorials = [
         `
     },
     {
-        Title:"Startup Investment Fundamentals, Venture Capital Methematics and it's role in creation of startup ecosystem",
-        tags:"#business #businessgrowth #startup #vc #angel #tutorial",
+        Title:"Startup Investment Fundamentals, Venture Capital Methematics and it's role in creation of startup ecosystem, Key ingredients for Big Tech",
+        tags:"#business #businessgrowth #bigtech #startup #vc #angel #tutorial",
         Blog:`
         <h4>Startup Investment Fundamentals</h4>
         <p>
@@ -2147,6 +2147,11 @@ var allTutorials = [
 	<p>If we take the example of Uber, Travis hired 3 Nuclear scientists in order to create the heat maps, pricing, prediction models and algorithms for the cities which help Uber know where to position the car at what time so that car remain available throughout the city.</p>
 	<p>This can't be done in India because finding such people is quite difficult because of lack of research labs and Universities of higher technical education and other than that if we take example of Ola in India the problem lies at the infrastructure level as well. The Urban area isn't big enough and traveling is cheaper due to M.R.P. system and lower wages, so optimizing travel cost doesn't make that much sense in comparison to US that's why Ola is fairly limited to Tier 1 cities of India only and going into loss as well.</p>
 	<p>That's why most of the revolutionary technological work are done in Silicon Valley.</p>
+	<h4>Key ingredients for Big Tech</h4>
+	<p>1. Find big enough marketing funnel which is accessible to you.</p>
+	<p>2. Build a lean and scalable product for that marketing funnel which can store some &quot;valuable data&quot;.</p>
+	<p> a. Valuable data must improves over time and act like an asset.</p>
+	<p> b. Valuable data must be helpful in solving problems in other businesses.</p>
 	<h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
         you are supposed to cover in order to gain the implementation abilities. 
