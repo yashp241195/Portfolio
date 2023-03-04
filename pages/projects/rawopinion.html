@@ -1,12 +1,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <div style="width: 500px; overflow: hidden; font-size: small;">
-    <h2>Linkhelp</h2>
+    <h2>RawOpinion</h2>
     <br />
     <div>
-        website : <a target="_blank" href="https://linkhelp.in">linkhelp.in</a>
+        website : <a target="_blank" href="https://rawopinion.in">rawopinion.in</a>
     </div>
     <div>
-        follow us on Instagram : <a target="_blank" href="https://www.instagram.com/linkhelp.in/">@linkhelp.in</a>
+        follow us on Instagram : <a target="_blank" href="https://www.instagram.com/rawopinion.in/">@rawopinion.in</a>
     </div>
     <br />
     <div id="showImages"></div>
@@ -14,7 +14,7 @@
 
         function showImageWithIndex(index){
             
-            let base ="data/image/linkhelp/"; 
+            let base ="data/image/rawopinion/"; 
             let imagename= "000"+index+".jpg";
             if(index==10){
                 imagename= "0010.jpg";
@@ -26,7 +26,7 @@
             
             let imgList = "";
 
-            for(var i = 1;i <= 9; i++){
+            for(var i = 1;i <= 6; i++){
                 imgList += "<div>"+showImageWithIndex(i)+"</div>"
             }
             
