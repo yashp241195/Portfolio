@@ -2070,7 +2070,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Startup Investment Fundamentals, Venture Capital Methematics and it's role in creation of startup ecosystem, Key ingredients for Big Tech",
+        Title:"Startup Investment Fundamentals, Venture Capital Methematics and it's role in creation of startup ecosystem, Key ingredients for Big Tech, Startup isn't a business or corporate it's an advance banking",
         tags:"#business #businessgrowth #bigtech #startup #vc #angel #tutorial",
         Blog:`
         <h4>Startup Investment Fundamentals</h4>
@@ -2161,6 +2161,13 @@ var allTutorials = [
 	<p>2. Build a lean and scalable product for that marketing funnel which can store some &quot;valuable data&quot;.</p>
 	<p> a. Valuable data must improves over time and act like an asset.</p>
 	<p> b. Valuable data must be helpful in solving problems in other businesses.</p>
+	<br/>
+	<b>Startup is not a business or corporate but it's a form of advance banking.</b> 
+	<br/> Both grows exponentially using the "valuable data" and "marketing funnel".
+	<br/> Startup is a form of advance banking that's why investments are major component, sometimes even more important than business just like bank
+	all decisions are made in order to take advantage of data stored not according to customer's current needs 
+	<br/> When we are capable to take advantage of data then only we are able to generate profits exponentially.
+	<br/> 
 	<h3>Lectures:</h3>
         <p>The only intention of lectures is to let you know the topics
         you are supposed to cover in order to gain the implementation abilities. 
