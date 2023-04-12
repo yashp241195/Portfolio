@@ -1087,6 +1087,12 @@ var allTutorials = [
 	server space with a reserved amount of resources, offering greater control and customization than 
 	shared hosting.
         <br>
+	VPS is better than cloud when you need to host many websites with lower traffics or when you are at 
+	the high scale and need dedicated servers. Cloud is useful when you need high availability across geography 
+        for your one or two apps.  
+        <br/>
+	Learn about Hostinger VPS : <a target="_blank" href="https://github.com/yashp241195/HostingerVPS" >hostinger-vps</a>
+	<br/>
         <b>Container</b> : Containers are a form of operating system virtualization. 
         A single container might be used to run anything from a small microservice or 
         software process to a larger application. Inside a container are all the 
@@ -1292,8 +1298,6 @@ var allTutorials = [
         <tr><td>Docker Compose Nodeapp deploy</td><td> <a target="_blank" href="https://github.com/yashp241195/DeployWithDockerCompose" >deploy-docker-compose</a> </td></tr>
         <tr><td>Kubernetes Deploy</td><td> <a target="_blank" href="https://github.com/yashp241195/DeployWithKubernetes" >deploy-with-kubernetes</a> </td></tr>
         </table>
-
-
         `
     },
     {
