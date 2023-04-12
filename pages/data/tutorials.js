@@ -1071,7 +1071,7 @@ var allTutorials = [
         `
     },
     {
-        Title:"Deployment , Virtual Machine vs Container ( Docker , Kubernetes )",
+        Title:"Deployment , Virtual Machine (VPS) vs Container ( Docker , Kubernetes )",
         tags:"#deployment #devops #programming #tutorial",
         Blog:`
         <h4>Deployment</h4>
@@ -1081,6 +1081,11 @@ var allTutorials = [
         including running applications and operating systems. Virtual machines 
         run on a physical machine and access computing resources from software 
         called a hypervisor.
+	<br/>
+	<b>VPS</b> : A VPS—or virtual private server—is a virtual machine that provides virtualized server 
+	resources on a physical server that is shared with other users. With VPS hosting, you get dedicated 
+	server space with a reserved amount of resources, offering greater control and customization than 
+	shared hosting.
         <br>
         <b>Container</b> : Containers are a form of operating system virtualization. 
         A single container might be used to run anything from a small microservice or 
