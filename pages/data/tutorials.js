@@ -2321,6 +2321,26 @@ var allTutorials = [
 
         `
     },
+    {
+        Title:"East and West aren't opposite but complimentary to each other.",
+        tags:"#eastvswest",
+        Blog:`
+	<p>East and West aren't opposite but complimentary to each other.</p>
+	<p>Eastern Philosophy discourage private ownership and personal space in life.</p>
+	<p>Eastern philosophy was absolutely clear if you give people personal space without training them properly they will going to do real harm to self and others.</p>
+	<p>Lack of interests towards material possessions made people less scientific because science is all about understanding and manipulating materials that's why even after substaintial development in mathematics in the past east wasn't able to made progress in science and technology.</p>
+	<p>All progress of mind happen by negation or discarding the unnecessary but all progress in material happened after mixing unknown different things or materials.</p>
+	<p>Mind hasn't changed since thousands of years so do spiritual practices which made people of east more &quot;process oriented&quot; as east studied mind in more depth than west but material world changed very rapidly due to development in science and technology especially after scientific revolution in 17th century which made people of west more &quot;experimentation oriented&quot;.</p>
+	<p>Well defined processes can be executed best in &quot;communism&quot; and experiments can be done freely in &quot;capitalism&quot; that's why east gravitate towards &quot;communism&quot; because they believed &quot;they already know&quot; and west gravitate towards &quot;capitalism&quot; as they believe they don't know.</p>
+	<p>That's why people who &quot;follow the processes&quot; are celebrated in the east like mostly politicians and west celebrate outliers &quot;who question existing processes&quot; and figure out new ways like inventors and entrepreneurs.</p>
+	<p>These new ways helped west conquer the world in all material aspect as their tools become far more advanced to understand the material world.</p>
+	<p>For the aspect of education,</p>
+	<p>In west, education is designed to help you think about how to understand and use tools.  Great work in the domain of science and technology comes from combining different things which can't be done in any kind of institutions or group but only done by individuals in solitude. It made western society more individualistic.</p>
+	<p>In east, education is designed to help you understand about nature of mind and enrol you into the process of transformation. Great work in the domain of mental peace comes from negation or discarding the unnecessary or (neti-neti) which can be done by anyone and works best in the groups (sat-sang). It made eastern society more collective.</p>
+	<p>The main problem is people in east are trying to make material progress by &quot;following the processes without questioning&quot; and people in west are trying to achieve mental peace just by &quot;questioning only instead of following the process of self transformation&quot;</p>
+	
+        `
+    },
 ]
 
 
