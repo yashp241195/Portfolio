@@ -2341,6 +2341,23 @@ var allTutorials = [
 	
         `
     },
+    {
+        Title:"Coding with ChatGPT",
+        tags:"#chatgpt #programming #python",
+        Blog:`
+	<p>I tried to generate code for our AI backend via ChatGPT and here are the observations</p>
+	<p>I overestimate my capacity to ask right questions in right sequence to generate backend properly.</p>
+	<p>1. Code generation for single or independent code.</p>
+	<p>eg. Python code for ML with existing models and libraries.</p>
+	<p>libraries structure kept changing, libraries kept depreciating which made integration of multiple libraries very difficult and it can't understand requirements that much properly.</p>
+	<p>So, the idea you can give a command and generate custom app with higher efficiency using AI will remain myth.</p>
+	<p>2. Code generation for multiple codebases communicating with each other</p>
+	<p>eg. HTML JS communicating with the python backend</p>
+	<p>It can't optimize backend according to frontend queries and intentions, it can't know whether to make a single endpoint or multiple endpoints to process image, it can't connect frontend backend properly and efficiently as it can't know your use case and requirements.</p>
+	<p>So, higher the coupling, more number of people you need to manage the code and difficult for ChatGPT to generate code. Lower the coupling, easier to manage the code and easier it is for ChatGPT to generate code.</p>
+	<p>Better micro-service architecture, lesser people you need to manage things but it can't be done by ChatGPT alone as it can't understand requirements easily.</p>	
+        `
+    },
 ]
 
 
