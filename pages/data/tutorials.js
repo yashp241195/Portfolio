@@ -2341,6 +2341,73 @@ var allTutorials = [
 	
         `
     },
+     {
+        Title:"Problem of Indian Caste System.",
+        tags:"#indiancastesystem",
+        Blog:`
+	<p>1. Before you start,</p>
+	<p>2. Anthropological Perspective</p>
+	<p>3. Historical Perspective</p>
+	<p>4. Psychological and Religious Perspective</p>
+	<p>1. Before you start,</p>
+	<p>About Dr Ambedkar's work</p>
+	<p>Earlier, he used &quot;scripture's stories as primary evidence&quot; just like any other scholar of that time so he concluded shudras / untouchables were &quot;Kshatriyas&quot; then he become &quot;more scientific&quot; in his approach and used &quot;scripture's language evolution differences and genetic similarity as primary evidences''. It happened due to improvement in the research standards of Western Universities driven by a massive amount of inventions and discoveries in the Western countries. The result was very clear, almost all kinds of popular doctrines from other great people including his old doctrine turned out wrong. Science has no mercy on anyone's beliefs.</p>
+	<p>White light is made up of 7 colours but no one was able to discover via prism before Newton.</p>
+	<p>Is white light made up of 7 colours sound obvious? Obviously No.</p>
+	<p>So, it is not necessary that what looks obvious is the real fact, we need to examine the tool and technique used also to figure out fact.</p>
+	<p>If you are able to understand the above statement then only reading further makes any sense.</p>
+	<p>2. Anthropological Perspective</p>
+	<p>Earlier, people used to live in tribal groups but some of them started agriculture activities which resulted in people staying at fixed places and excessive production of food. When the population of tribal groups involved in agriculture outgrow outsider tribal groups then society becomes stable as outsider's can't attack insider's easily. There is a clear difference between lifestyle of people outside and inside, it wasn't binary but spectrum and that's why there was never a &quot;caste&quot; (singular) but many &quot;castes&quot; (plural).</p>
+	<p>Your status and well being in society is inversely proportional to the distance of your house from the centre of the village.</p>
+	<p>You can find the similar pattern in the animals who live in herds like fish, there is no single fish but always a group/school of fish, more healthy fish are generally found in the middle but there exists a constant struggle for everyone to stay in the middle so that big predator fish won't get them. Similarly in tribal groups, people with higher status/class are generally found in the middle but due to no fixed location and various kinds of potential threats there exists fluidity and people with lower status can become higher status and vice versa. Due to agriculture, people started staying at a singular place so this fluid class system of tribal people gets converted into rigid caste system, it is found everywhere cross culturally.</p>
+	<p>Untouchability existed in the tribal time as well but it wasn't directed towards a particular tribe due to unstable location and smaller size of tribal groups. Life used to be exceptionally unpredictable in the jungle so touching anything could be a risky business, it could be a poisonous snake or poisonous fruit.</p>
+	<p>So, it was not like higher caste people invented the concept of untouchability in fact all castes used to practice untouchability with each other. After agriculture, people started staying at fixed locations and soon they became familiar and stopped practicing untouchability with the people who live near them.</p>
+	<p>Initial assumption of Dr. Ambedkar, (he mentioned in his early book and writings)</p>
+	<p>Shudras / untouchables were &quot;Kshatriyas&quot; sometimes &quot;Bodh&quot;</p>
+	<p>After studying Genetics, (he mentioned in his later books and writing, The Untouchables -1948)</p>
+	<p>region1.caste1 = region2.caste2 where</p>
+	<p>caste1 and caste2 can be highest or lowest. area1 and area2 are generally nearby areas.</p>
+	<p>Higher caste of one region and Lower caste of another region can have same ancestral roots.</p>
+	<p>It makes total sense like some members of a tribal group settled into one region by doing agriculture activities and became higher caste and remaining members went to some other place and became servant or lower caste of other tribal groups as they settled outside.</p>
+	<p>It means caste is not something like race, it doesn't exist biologically.</p>
+	<p>PS : Even with race, no race is actually pure and the DNA difference between chimpanzees and humans is less than 2%.</p>
+	<p>3. Historical perspective.</p>
+	<p>Dr Ambedkar's contribution,</p>
+	<p>(i) Analysis of many Chinese travelers like &quot;Fa Hein's&quot; who came to India in 400 CE. and above. Chinese describes that,</p>
+	<p>Who went earlier : People who lived in the inner area were indifferent towards the existence of people who live in outer areas.</p>
+	<p>Who went some years later : People who lived in the inner area oppressed people who lived in outer areas.</p>
+	<p>(ii) Relationship between caste, profession, slavery and Untouchability</p>
+	<p>Agriculture economy thrives on slavery,</p>
+	<p>People belonging to a particular caste can do slavery of equal or higher caste than them. Slaves exist in all castes and in heavy amounts, they do all kinds of &quot;dirty work&quot; which is done by lower castes.</p>
+	<p>People of upper caste doing &quot;dirty work&quot; don't face any form of untouchability from upper caste.</p>
+	<p>Wealthy higher castes used poor higher castes for all kinds of work by creating sub castes.</p>
+	<p>So, dirty work or lower profession wasn't the real reason behind untouchability.</p>
+	<p>(iii) Fall of buddhism with Mouryan empire and rise of hinduism with Gupta empire.</p>
+	<p>Higher caste of hindu's especially brahmin used to eat a lots of cow meat or beef even after knowing the utility of cow and bull in agriculture. They sacrifice a lots of animals in the name of &quot;yagya&quot; and still demand things from society which degraded their image.</p>
+	<p>Buddha and his followers said &quot;don't sacrifice animals unnecessarily especially for religious practices&quot;</p>
+	<p>Manu and his followers said &quot;don't sacrifice animal of type A, type B and type C .. except for some special occasions&quot;</p>
+	<p>Both have same intentions like &quot;don't unnecessarily sacrifice animals&quot; but Manu and his followers don't have capacity to comprehend things in comparison to followers of Buddha that's why Manusmiriti has so many rules for almost everything and always contradicts itself and also falls out of logical structure. Manu wants absolute control over everything and wishes to make life exceptionally predictable or mechanical so that there won't be any anxiety and yet he failed to do so and make life of all people hell with his doctrine because no one can completely predict life.</p>
+	<p>The Mauryan Empire started falling after assassination of Brihadratha in 180 BCE by his military general Pushyamitra Shunga who was brahmin.</p>
+	<p>The foundation of not sacrificing animals necessarily was already laid down by the Mauryan Empire and after that Manu also supported that except for some special occasions.</p>
+	<p>With the rise of Gupta empire in 4th century Manusmiriti become the norm and law of state,</p>
+	<p>Brahmins stopped eating beef and started understanding their old vedic literature as well. To prove their superiority in front of buddhist and all other castes they also stopped eating all kinds of non vegetarian food which was a total revolution but their population size also dropped significantly because being vegetarian was a costly business, most people can't afford such a thing.</p>
+	<p>It didn't happen instantly like they decided to quit non vegetarian food and the next day everything changed. It took a few centuries. That's why Chinese travelers who went in the early Gupta empire era saw that Higher castes were indifferent towards the existence of the lower caste and at the later end of Gupta era they saw oppression and hatred among them.</p>
+	<p>In that era of improvement in life of upper caste brahmins, they did a lots of great things in many domains such as mathematics by Aaryabhatta, science and trade etc, they were constantly improving their understanding like they started from Manu then they went to ramayan and then they mahabharat etc and after sometime they took quantum leap to completely different framework of understanding life such as Upnishads.</p>
+	<p>Upnishad's weren't famous due to their lack of utility in society, they had a lower interest to tell anything about how to form a society. They were more interested in helping you see how to understand things.</p>
+	<p>If you ask Upnishad what is caste then it will ask you counter question caste for whom ? They start by proving you are neither body nor mind. Are your desires and the desires of your body and mind the same? Obviously Not. How can you have trust in the caste or any other relationship of yours with the world if you can't even trust your own body and mind.</p>
+	<p>The key point is Upnishads were much deeper than normal scriptures like Ramayana. In Fact most brahmin scholars oppose Upanishads because it has the potential to destroy their entire belief system or faith in popular hinduism.</p>
+	<p>Apart from that, Brahmins made a very big mistake of separating them from other higher and lower castes which was a major chunk of population, this casteism destroyed and split the Hindu population into many pieces which never unite again under any hindu ruler properly. Almost all foreign invaders took advantage of it after the Gupta empire to enslave Hindus.</p>
+	<p>When Dr Ambedkar analyzed the census of 1910 then he realised that lower caste and untouchables are mostly those people who weren't able to afford to stop eating beef. It was done by Muslim leaders because they were demanding their representation in british government according to their population and in that report he realised that population of higher caste brahmin is much lower than population of other castes and the marker which defines the difference between higher caste and lower caste is &quot;cow meat&quot; or &quot;beef&quot; eating statistically.</p>
+	<p>4. Psychological and Religious Perspective.</p>
+	<p>Caste problem existed everywhere around the globe but it became severe in India due to Hindu Philosophy.</p>
+	<p>To sustain a population where people are not able to get any help from others then there must be fear among people for helping others.</p>
+	<p>In Abrahamic religions like Islam and Christianity if you help some lower caste person then you will not be punished and even if you get punished you will get punished for one life because there is no concept of rebirth, there is a concept of heaven, hell and judgement.</p>
+	<p>In Hinduism, if you help some lower caste person then you will get punished for multiple lives because there is a concept of multiple births and person belong to lower caste earned his suffering by sins of his previous birth and will get redeemed in successive births, so you can relax and you don't need to rebel. It made the majority of Hindu population lazy, highly controllable and prone to slavery whether they belong to higher or lower caste and that's why they never rebelled at massive scale against authorities the way Islamic or Christian did in the past and also get enslaved easily by foreign invaders like Mughals and British.</p>
+	<p>You can't solve Indian caste problem with conversion of Hindus to some other religion instead</p>
+	<p>1. You need to remove the concept of &quot;rebirth&quot; and &quot;multiple birth&quot; from the minds of common people. It will make 95% of the Hindu scriptures null &amp; void except few deeper and important scriptures like ken-Upnishad.</p>
+	<p>2. You need to industrialize and Urbanize, the caste system started with agriculture where people live at a fixed place for generations. Majority population can't stay at one location in the city except some riches which make sustaining casteism and many other forms of prejudices really difficult for average people.</p>
+	`
+    },
     {
         Title:"Coding with ChatGPT",
         tags:"#chatgpt #programming #python",
