@@ -2453,6 +2453,22 @@ var allTutorials = [
         `
     },
     {
+        Title:"Evolution of Political Philosophy",
+        tags:"#politics",
+        Blog:`
+	<p>Niccolo Machiavelli is known as author of books like Prince which is considered as Bible of Mafia, William Shakespeare described him as &ldquo;the murderous Machiavel&rdquo;. &ldquo;Machiavellian Trait&rdquo; which is a key component of &ldquo;Psychopathy&rdquo; is also named after him. His core teaching are &ldquo;Always look moral in front of public and preach them morality but never follow it&rdquo;, &ldquo;Create a persona and let people interact with that, not yourself&rdquo;, &ldquo;the most secure place is not the guarded fort but your good moral image in the heart of people because if people start hating you then you&rsquo;re done&rdquo;, &ldquo;Surround 
+        yourself with men who can tell you the truth otherwise you won&rsquo;t be able to understand the reality and make the correct plans&rdquo;, &ldquo;Wars can&rsquo;t be avoided, only postponed&rdquo;. This philosophy usually works when the state&rsquo;s education quality and free speech is really poor and along with lower GDP per capita (it means people are involved into primary/secondary sectors which doesn&rsquo;t require much of intellect on average) because only less educated people can fall in the trap of such ruler. This is one of the reason why most successful Chinese and Indian leaders have &ldquo;Machiavellian Trait&rdquo;.</p>
+	<br/>
+ 	<p> Alexis de Tocqueville is known for his book &ldquo;Democracy in America&rdquo; and explaining psychological consequences of Democracy. After &ldquo;age of enlightenment&rdquo; aka scientific revolution and &ldquo;french revolution&rdquo; we saw explosion of liberal philosophy like JJ Rousseau&rsquo;s which lead to establishment of democracy as a virtue. With rise in democracy, people start becoming more empathetic which is really great, that&rsquo;s why it is considered as best or more human centric system among all the alternatives but too much or miguided empathy can be dangerous because discounting &ldquo;stupidity of indvidual or group or minority&rdquo; in the 
+        name of &ldquo;tollerance&rdquo; or &ldquo;minority rights&rdquo; is not good. There are plenty of people who are declared as criminal in other countries but they are living comfortably inside the liberal countries which increase unnecessary tension between states. If Government didn&rsquo;t take proper responsibility to figure out who are genuine and who are criminals then it lead to increase in terror activities and terror funding throughout the globe and sometimes it endup into situations like 9/11 because Government avoid conflicts and responsibility of the present to appear &ldquo;more peaceful&rdquo; in the eyes of public order to win election and ultimately end up 
+	loosing all control in future which lead to bombing entire nation as damage control method where hundred of thousands of innocent people die. Another problem he discussed was &ldquo;tyranny of majority&rdquo; where majority segregate minority to a particular geographical location then &ldquo;enemy states take advantage of such situations by radicalising minority and supplying them weapons or it&rsquo;s components&rdquo; which lead to endless gorilla wars and state&rsquo;s destabilization. This problem can&rsquo;t be solved by creating separate states because people will create some new divisions again unless we improve free speech, education standards and scientific temper 
+        in the society because forming a big enough group of people with scientific temper who can demand their separate state by risking their lifes within a time frame of election (5-6 years) is very difficult in the age of techonology where poeple can actually saw the DNA difference b/w chimps and human is 2% just by one Google search click.</p>
+        <br/>
+	<p> Steven B Smith is Professor at Yale and a well known Political Scientist who taught the evolution of political philosophy from Aristotle to Machiavelli to JJ Rousseau to Tocqueville at Yale.</p>
+
+        `
+    },
+    {
         Title:"Coding with ChatGPT",
         tags:"#chatgpt #programming #python",
         Blog:`
