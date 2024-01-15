@@ -2469,6 +2469,51 @@ var allTutorials = [
         `
     },
     {
+        Title:"Understanding Poverty",
+        tags:"#poverty",
+        Blog:`
+	<p> Q. Is Poverty really a more complex problem than Modern Physics ?</p>
+	<p> A. Actually Yes, it is a question of neuroscience. Neuroscience can't be done without modern physics based brain scanning equipment.</p>
+	<p> Q. Why is poverty the main question of any modern state ?</p>
+	<p> A. It is because democracy is considered as the highest &quot;virtue&quot;.</p>
+	<p> There are two fundamental problems which create the poverty are</p>
+	<p> 1. Problem of Perception : We can't even see and understand things properly if we simply rely on 5 senses, Check &quot;monkey business illusion&quot; video I mentioned below. If we can't even see things properly then how can we perceive it and how can we arrive at the correct conclusions and solve conflicts on our own. It means &quot;We can't solve any conflict sustainably without using scientific methods at large scale.&quot; Is white made up of 7 colours sound intuitive ? Obviously Not.</p>
+	<p> link : <a href="https://www.youtube.com/watch?v=IGQmdoK_ZfY">monkey business illusion</a> </p>
+	<p> To understand more about this please refer, visual perception system in &quot;neuroscience&quot; and Convolution Neural Networks (CNN) in &quot;deep learning models&quot; of AI.</p>
+	<p> 2. Problem of Work and Resource distribution :</p>
+	<p> We can't simply pluck any fruit, vegetable or hunt any animal and eat it in order to sustain a body in the jungle because some things could be poisonous and possess the capacity to kill us. It means we can't simply rely upon intuitions; we need sophisticated language to communicate the threats. With the development of &quot;human language&quot; we were able to distribute threats more efficiently. We can't simply distribute work or resources to anyone if we really wish to create a system or society where people don't die unnecessarily.</p>
+	<p> We need more scientific methods for selection of work and distribution of resources and prohibition on production of goods and services which reduce life expectancy on average.</p>
+	<p> So, we can't solve both problems and elevate a large chunk of population without providing &quot;basic scientific education&quot; to everyone and making &quot;scientific methods and research&quot; as virtue.</p>
+	<p> What is United Nation doing about this problem of poverty? What UN actually did till now ?</p>
+	<p> People might think UN is a &quot;useless organisation&quot; as it can't solve conflicts/war like Russia-Ukraine but they are actually far ahead of the curve, No war did more damage to &quot;basic human rights&quot; than &quot;population explosion&quot; since World war II by adding 1 Billion people every 13 years.</p>
+	<p> In 1970's PM Indira Gandhi created a narrative of &quot;Gareebi hatao&quot; (eliminate poverty) and the biggest challenge she had was &quot;population control&quot;. She used various unethical methods like &quot;forced sterilization&quot; and In 1980's Deng Xiaoping did similar things with &quot;one child policy&quot; but both failed miserably.</p>
+	<p> Even after their failures we saw huge reduction in fertility rate in past few decades. How did that miracle happened ?</p>
+	<p> Miguel Sabido (Mexican Film Producer) developed a psychological method of creating serial dramas that are customised for the needs and circumstances of specific regions, cultures, and audiences, also known as &quot;Sabido Method&quot;. The method suggest that people who aren't educated enough and mostly involved in primary sector of the economy can't consume too much details but they can experience emotions.</p>
+	<p> Yeah, I am talking about never ending Indian serial where we see 10 minutes story and rest of the time .. dhoom-ta-na dhoom-ta-na, ..</p>
+	<p> These never ending serials create a fictional environment inside public's mind where they lost the sense of reality and normalise the change. Bill Ryerson, M Phil in Biology from Yale University and founder of Population and Media Centre (P.M.C.) played a vital role in implementation across the globe. One big message they always try to &quot;promote&quot; is &quot;family planning&quot;.</p>
+	<p> Less kids == More resources per person == Better quality of life</p>
+	<p> It turned out to be so effective that it help to reduce global fertility rate from 5 to 2.3 over past 4 decades and help people get out of absolute poverty.</p>
+	<p> With rise of Instagram and other social media platforms, it accelerate the process of westernisation which is really good for reduction in fertility rate. All traditional cultures born around &quot;primary sector&quot; where &quot;population control is discouraged&quot; is really bad for poverty elimination but in order to progress materially or uplift a huge population we need to (i) reduce fertility rate, (ii) reduce dependency over primary sector and (iii) encourage scientific thinking.</p> 
+
+        `
+    },
+    {
+        Title:"Poverty Solution with Big Data, AI and Blockchain",
+        tags:"#poverty",
+        Blog:`
+	<p>Poverty is the main question of any modern state due to democracy.</p>
+	<p>It is more complex than modern physics because it is a question of neuroscience which can't be done without modern physics based brain scanning equipment</p>
+	<p>Problem of Poverty (Root cause in Biology and Nervous System) :</p>
+	<p>P1. We can't eat anything random because some things are poisoness also, we need more scientific methods and tools to understand the food quality and it's production at large scale.</p>
+	<p>P2. We can't observe things and make correct conclusions with 5 senses, we need scientific methods and tools to make correct conclusions about environment (physical/social) and solve large scale conflicts.</p>
+	<p>Solution of Poverty (With AI, Blockchain):</p>
+	<p>S1. a) Reducing fertility rate <a href="https://www.dateze.in">https://www.dateze.in</a> </p>
+	<p>S1. b) Reducing primary sector dependency <a href="https://www.workoso.in">https://www.workoso.in</a> </p>
+	<p>S2. Encouraging scientific discussions <a href="https://www.rawopinion.in">https://www.rawopinion.in</a> </p>
+
+        `
+    },
+    {
         Title:"Coding with ChatGPT",
         tags:"#chatgpt #programming #python",
         Blog:`
