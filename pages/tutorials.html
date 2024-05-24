@@ -1,164 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Tutorials</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<style>
-  
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc; 
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-}
-</style>
-
-<script src="data/tutorials.js"></script> 
-
-<script>
-
-    var questionList=[]
-    allTutorials.map(item=>{
-      const {Title, Blog, tags} = item
-      questionList.push({q:Title,a:Blog,t:tags}) 
-    })
-
-    const questionItemWrap = (item,i) => {
-        const {q, a, t} = item
-        const result = "<li><q style=\"visibility: hidden;\">query:"
-            +q+""+"</q>"+"<t style=\"visibility: hidden;\">tags:"
-            +t+"</t>"+"<button class=\"accordion\"><b>Lec"+(i)+". "
-            +q+"</b><br><b>tags</b>:"
-            +t+""+"</button><div class=\"panel\"><p><a>"
-            +a+"</a></p></div></li>"
-        return result
-    }
-
-    const tagWrap = (item) =>"<a href=\"#\" class=\"mytagg\">"+item+"</a>"
-
-    const extractTags = (questionList) => {
-      var listofalltags = []
-      for(let i = 0; i < questionList.length; i++){
-        const ql = questionList[i];
-        listofalltags.push(...ql.t.split(" "))
-      }
-      const newarray = [ ...new Set(listofalltags) ]
-      return " "+newarray.map(item => tagWrap(item)).reduce((result, item)=> result+" "+item+" ")+" "
-    }
-
-    const hashSearch = (main, search) => {
-      let main_arr = main.toLowerCase().trim().split(" ")
-      let search_arr = search.toLowerCase().trim().split(" ")
-      let count = 0;
-      for(let i=0;i<main_arr.length;i++){
-        for(let j=0;j<search_arr.length;j++){
-          if(main_arr[i] == search_arr[j])
-          {count++;}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
         }
-      }
-      return (count == search_arr.length)?1:-1
-    }
 
-    const querySearch = (main, search) => {
-      let main_arr = main.toLowerCase().trim().split(" ")
-      let search_arr = search.toLowerCase().trim().split(" ")
-      let count = 0;
-      for(let i=0;i<main_arr.length;i++){
-        for(let j=0;j<search_arr.length;j++){
-          if(main_arr[i] == search_arr[j])
-            {count++;}
+        .active, .accordion:hover {
+            background-color: #ccc; 
         }
-      }
-      return count>0
-    }
 
-    $(document).ready(function(){
-      $("#alltags").html("<br>Tags: "+extractTags(questionList)+"<br>")
-      $('input[name="group1"]').click(function(){$("#myInput").val($('input[name="group1"]:checked').val())})
-      $("#myList").html(questionList.map((item,i)=>questionItemWrap(item,i)).reduce((result, item)=> result+item))
-      $("li").click(function(){$(this).children("div").toggle()})
-      
-      $("#myInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase()
-        $("#myList li").filter(function() {
-            $(this).toggle(hashSearch($(this).children("t").text().slice(5).toLowerCase(),value.slice(5)) > -1
-            || querySearch($(this).children("q").text().slice(6).toLowerCase(),value.slice(6))
-            )          
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+    <script src="data/tutorials.js"></script> 
+    <script>
+        var questionList = []
+        allTutorials.map(item => {
+            const { Title, Blog, tags } = item
+            questionList.push({ q: Title, a: Blog, t: tags }) 
+        })
+
+        const questionItemWrap = (item, i) => {
+            const { q, a, t } = item
+            const result = `<li><q style="visibility: hidden;">query:${q}</q><t style="visibility: hidden;">tags:${t}</t><button class="accordion"><b>Lec${i}. ${q}</b><br><b>tags</b>:${t}</button><div class="panel"><p>${a}</p></div></li>`
+            return result
+        }
+
+        const tagWrap = (item) => `<a href="#" class="mytagg">${item}</a>`
+
+        const extractTags = (questionList) => {
+            var listofalltags = []
+            for(let i = 0; i < questionList.length; i++) {
+                const ql = questionList[i]
+                listofalltags.push(...ql.t.split(" "))
+            }
+            const newarray = [ ...new Set(listofalltags) ]
+            return newarray.map(item => tagWrap(item)).join(" ")
+        }
+
+        const hashSearch = (main, search) => {
+            let main_arr = main.toLowerCase().trim().split(" ")
+            let search_arr = search.toLowerCase().trim().split(" ")
+            let count = 0;
+            for(let i = 0; i < main_arr.length; i++) {
+                for(let j = 0; j < search_arr.length; j++) {
+                    if(main_arr[i] == search_arr[j]) { count++; }
+                }
+            }
+            return (count == search_arr.length) ? 1 : -1
+        }
+
+        const querySearch = (main, search) => {
+            let main_arr = main.toLowerCase().trim().split(" ")
+            let search_arr = search.toLowerCase().trim().split(" ")
+            let count = 0;
+            for(let i = 0; i < main_arr.length; i++) {
+                for(let j = 0; j < search_arr.length; j++) {
+                    if(main_arr[i] == search_arr[j]) { count++; }
+                }
+            }
+            return count > 0
+        }
+
+        $(document).ready(function() {
+            $("#alltags").html("Tags: " + extractTags(questionList))
+            $('input[name="group1"]').click(function() {
+                $("#myInput").val($('input[name="group1"]:checked').val())
+            })
+            $("#myList").html(questionList.map((item, i) => questionItemWrap(item, i)).join(''))
+            $("li").click(function() {
+                $(this).children("div").toggle()
+            })
+
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase()
+                $("#myList li").filter(function() {
+                    $(this).toggle(
+                        hashSearch($(this).children("t").text().slice(5).toLowerCase(), value.slice(5)) > -1 ||
+                        querySearch($(this).children("q").text().slice(6).toLowerCase(), value.slice(6))
+                    )          
+                });
+            });
+
+            $(".mytagg").click(function() {
+                $("input[name=group1][value='tags:']").prop("checked", true);
+                $("#myInput").val("tags:" + this.text)
+                var e2 = $.Event("keyup", { keyCode: 13 });
+                $('#myInput').trigger(e2);
+            })
+
+            $("input[name=group1]").change(function() {
+                if ($(this).val() == 'all:') {
+                    $("#myList li").filter(function() {
+                        $(this).toggle(true)
+                    })
+                }
+                if ($(this).val() == 'index:') {
+                    $("#myInput").val("tags: #index")
+                    var e2 = $.Event("keyup", { keyCode: 13 });
+                    $('#myInput').trigger(e2);
+                }
+                if ($(this).val() == 'project:') {
+                    $("#myInput").val("tags: #project")
+                    var e2 = $.Event("keyup", { keyCode: 13 });
+                    $('#myInput').trigger(e2);
+                }
+                if ($(this).val() == 'tutorial:') {
+                    $("#myInput").val("tags: #tutorial")
+                    var e2 = $.Event("keyup", { keyCode: 13 });
+                    $('#myInput').trigger(e2);
+                }
+            })
         });
-      });
-      $(".mytagg").click(function(){
-        $("input[name=group1][value='tags:']").prop("checked",true);
-        $("#myInput").val("tags:"+this.text)
-        var e2 = $.Event( "keyup", { keyCode: 13 } );
-        $('#myInput').trigger(e2);
-      })
-
-      $("input[name=group1]").change(function(){
-        if($(this).val() == 'all:'){
-          $("#myList li").filter(function(){
-            $(this).toggle(true)
-          })
-        }
-        if($(this).val() == 'index:'){
-          $("#myInput").val("tags: #index")
-          var e2 = $.Event( "keyup", { keyCode: 13 } );
-          $('#myInput').trigger(e2);
-        }
-        if($(this).val() == 'project:'){
-          $("#myInput").val("tags: #project")
-          var e2 = $.Event( "keyup", { keyCode: 13 } );
-          $('#myInput').trigger(e2);
-        }
-        if($(this).val() == 'tutorial:'){
-          $("#myInput").val("tags: #tutorial")
-          var e2 = $.Event( "keyup", { keyCode: 13 } );
-          $('#myInput').trigger(e2);
-        }
-        
-      })
-
-    });
-</script>
-
+    </script>
 </head>
 <body>
-<div style="padding-left: 50px;">
-  <h2>Tutorials</h2>
-  <p>
-    <i>
-      Tutorials I prepared for people in software product based startups.
-    </i>
-  </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br/>
+                <h2>Tutorials</h2>
+                <input id="myInput" class="form-control mb-3" type="text" value="query:" placeholder="Search ..">
+                <div class="mb-3">
+                    <input type="radio" value="query:" name="group1" checked> query
+                    <input type="radio" value="tags:" name="group1"> tags
+                    <input type="radio" value="all:" name="group1"> all
+                    <input type="radio" value="index:" name="group1"> index
+                    <input type="radio" value="project:" name="group1"> project
+                    <input type="radio" value="tutorial:" name="group1"> tutorial
+                </div>
+                <div id="alltags" class="mb-3"></div>
+            </div>
+            <div class="col-12">
+                <ul id="myList" class="list-unstyled"></ul>
+            </div>
+        </div>
+    </div>
 
-  <input id="myInput" style="width: 400px;" type="text" value="query:" placeholder="Search ..">
-  <br><br><input type="radio" value="query:" name="group1" checked>query
-  <input type="radio" value="tags:" name="group1">tags
-  <input type="radio" value="all:" name="group1">all
-  <input type="radio" value="index:" name="group1">index
-  <input type="radio" value="project:" name="group1">project
-  <input type="radio" value="tutorial:" name="group1">tutorial
-
-  <div style="width: 600px;" id="alltags"></div>
-
-</div>
-<ul id="myList" style="list-style: none; width: 600px;"></ul>
-<br>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

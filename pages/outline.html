@@ -6,50 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .btn {
-          background-color: rgb(255, 255, 255);
-          border: none;
-          color: rgb(0, 0, 0);
-          padding: 4px 6px;
-          font-size: 16px;
-          cursor: pointer;
+        body {
+            font-family: Arial, sans-serif;
         }
-        
-        </style>
+        .profile img {
+            border-radius: 50%;
+        }
+        .btn-group .btn {
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <div style="display: flex;">
-            <div style="padding-top: 60px; padding-left: 10px; ">
-                <img style="padding: 10px; border-radius: 50%;" height="170" width="170" src="https://avatars.githubusercontent.com/u/26461059?s=400&u=4e2a0f6a44489a346fdea6991ad2a252233e9376&v=4" alt="">
-                <br>
-                <div>
-                    <button class="btn"><a style="text-decoration: none;" href="https://github.com/yashp241195" target="_blank"><i class="fa fa-github"></i> Github </a></button>
-                    <button class="btn"><a style="text-decoration: none;" href="https://www.linkedin.com/in/yashp2411/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn </a></button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center profile">
+                <img src="https://avatars.githubusercontent.com/u/26461059?s=400&u=4e2a0f6a44489a346fdea6991ad2a252233e9376&v=4" alt="Yash Pratap" class="img-fluid" style="max-width: 170px; margin-top: 20px;">
+                <div class="btn-group d-flex justify-content-center mt-3">
+                    <a href="https://github.com/yashp241195" target="_blank" class="btn btn-outline-dark">
+                        <i class="fa fa-github"></i> Github
+                    </a>
+                    <a href="https://www.linkedin.com/in/yashp2411/" target="_blank" class="btn btn-outline-dark">
+                        <i class="fa fa-linkedin"></i> LinkedIn
+                    </a>
                 </div>
             </div>
-            <div style=" font-size: medium; padding: 50px; ">
-                <h2>Yash Pratap</h2>
-                <div>
-                    Implementing computational sociology research on elimination of global poverty by solving global migration, diversity inclusion and free speech with big data, blockchain, ai and 3 apps (workoso, dateze, rawopinion) as baseline created via VC Mathematics (data science approach to create startup).
+            <div class="col-md-8 info">
+                <h3 class="text-center mt-4">Yash Pratap</h3>
+                <h6 class="text-center mt-4">Technical Skills</h6>
+                <hr>
+                <div class="skills">
+                    <ul>
+                        <li>Web development (MERN (GraphQL), Python Flask)</li>
+                        <li>Machine Learning (Python, Sci-kit, Tensorflow)</li>
+                        <li>Blockchain (Web3JS, Solidity, Geth)</li>
+                        <li>DevOps (Linux VPS, Docker, Kubernetes)</li>
+                    </ul>
                 </div>
-                <br/>
-                <div>
-                    <span><b>Skills</b></span>
-                    <hr>
-                    <div style="font-size: medium;">
-                        Web development (MERN (Apollo GraphQL), Python Flask),
-                        <br/> Machine Learning (Python, Sci-kit, Tensorflow), 
-                        <br/> Block-chain (Web3JS, Solidity, Geth),
-                        <br/> DevOps (Linux VPS, Docker, Kubernetes)
-                    </div>
+                <h6 class="text-center mt-4">Research : Computational Sociology</h6>
+                <hr>
+                <div class="research">
+                    <ul>
+                        <li>VC Mathematics (Data Science Perspective) and it's role in startup creation. Problem of Indian Startup Ecosystem (Role of University/Research and Purchasing Power of Customers)</li>
+                        <li>Population Density, Gender Roles and Evolution of Work</li>
+                        <li>Problem of Indian Caste System (Evolutionary Psychology Perspective) as a barrier to Diversity Inclusion</li>
+                        <li>Understanding Global Poverty (Biological Perspective) and it's solution implemented by UN (Population Control with Media)</li>
+                        <li>Political Philosophy evolution from Machiavelli to Tocqueville and role of free speech in democracy</li>
+                        <li>Misleading financial content detection with Generative AI and it&rsquo;s implication on Equity Research, Climate change and Sustainability</li>
+                    </ul>
                 </div>
-                <br/>
             </div>
-        </div>
-        <div>
         </div>
     </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
