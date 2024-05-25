@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finollama</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .finollama-img {
+            width: 100%;
+            max-width: 520px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-4">
+        <h2>Finollama</h2>
+        <br>
+        <div>
+            Website: <a target="_blank" href="https://www.finollama.in">finollama.in</a>
+        </div>
+        <br>
+        <div id="showImages" class="row"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function showImageWithIndex(index) {
+            let base = "data/image/finollama/";
+            let imagename = "000" + index + ".jpg";
+            if (index == 10) {
+                imagename = "0010.jpg";
+            }
+            return '<img class="finollama-img img-fluid" src="' + base + imagename + '" alt="p' + index + '" />';
+        }
+
+        function showImageList() {
+            let imgList = "";
+            for (var i = 1; i <= 6; i++) {
+                imgList += '<div class="col-12 col-md-6">' + showImageWithIndex(i) + '</div>';
+            }
+            return imgList;
+        }
+
+        function showImagesHTML() {
+            return showImageList();
+        }
+
+        $(document).ready(function () {
+            $("#showImages").html(showImagesHTML());
+        });
+    </script>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
