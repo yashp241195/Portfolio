@@ -618,6 +618,21 @@ var allTutorials = [
             </ul>
             <p>Solving Data Structures and Algorithms proactively all the time (also known as Competitive Coding) is purely a waste of time in the era of open source. It is just that if a decent engineer takes 1 hour to solve a DSA question, then 6* codeforce/codechef will do the same in 1/2 hour, but the opportunity for doing such things occurs once a month for senior engineers. That person imports such algorithms with open source libraries, which is a good practice as these libraries are well tested and well documented, and sometimes copy it from Google which makes speed in that skill useless. The main benefit of doing DSA is found while learning new concepts, especially in system design.</p>
             <p>It is just 20% of the equation, so don't think doing data structures and algorithms will solve all other problems of software engineering and business, which is why engineering jobs exist.</p>
+            <p>(i) In Academia : It is more tilted towards &quot;P vs NP&quot;.</p>
+            <p>People are primarily trying to understand :</p>
+            <p>a. If we can reduce any given algorithm into P/NP.</p>
+            <p>b. P/NP classification help us understand whether we can solve the problem by throwing more computing resources or not with increasing value of Input.</p>
+            <p>c. If we can't solve the problem, whether we can use some kind of &quot;heuristics&quot; to get things done for all practical purpose or not.</p>
+            <p>(ii) In Industry : It is more tilted towards &quot;Debugging the algorithm&quot;.</p>
+            <p>Companies using D.S.A. as primary criteria wish to understand :</p>
+            <p>a. If candidate can actually understand popular algorithms and debug issues in large code-bases.</p>
+            <p>Bigger company means bigger code-base, people already know what they are doing and market is already identified. So, primary challenge of bigger company is maintaining big infrastructure and understanding the leakages not developing new products or solving new problems.</p>
+            <p>b. If candidate can properly communicate the issue to other team members or not.</p>
+            <p>That's why interviewer focus primarily upon &quot;candidate's ability to explain algorithm&quot; more the &quot;candidates ability to solve very complex algorithms (competitive coding) within a given time&quot;.</p>
+            <p>(iii) In Competitive Programming : It is more tilted towards &quot;optimization of algorithms&quot;</p>
+            <p>a. Optimization of algorithms beyond a point can't be done in majority of simple data structures and algorithms.</p>
+            <p>Usually these optimizations make more sense in advance topics like Graphs and Dynamic Programming and most of the problems in academia and industry don't require solving these problems within a given time period on frequent basis.</p>
+            <p>Doing too much competitive coding mindlessly can be counter productive because you might develop a habit of skipping the basics and sometimes problems lies in the basics algorithms implementations itself. </p>
         </div>
         `
     },
